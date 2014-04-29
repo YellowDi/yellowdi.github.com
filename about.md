@@ -4,14 +4,27 @@ title: About
 disqus: false
 ---
 
-## Create by Mu-An
+## 关于我
 
-Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
+黄迪，网名 YellowDi，宁波海曙人。Web 开发者，擅长没事喝两杯。
 
-Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
+## 经历
 
-This theme is made by me. You have a nice day. ♥
+### 2008-6 ~ 2010-4 Saylikes.me
 
-## Modify by Rei
+Saylikes.me 是一个随机看图网站，于 2012年4月域名到期宣告关闭。
 
-http://chloerei.com
+### 2009-4 ~ 2011-12 SimCity.me
+
+模拟城市迷社区，致力于为模拟城市玩家创造一个良好的交流、分享环境
+
+### 2013-12 ~ ？ SimCity.Pro
+
+重新打造的模拟城市迷社区更名 SimCity.Pro，特点是简洁易用的全网模拟城市插件搜索引擎 [Spotlight](http://simcity.pro/spotlight) 和同样简洁的社区 [Sandbox](http://simcity.pro/sandbox)。
+
+## 足迹
+
+Tweet at [@YellowDi](http://twitter.com/YellowDi), read my code on [GitHub](http://github.com/YellowDi), see my photo on [Instagram](http://instagram.com/yellowdi)
+
+You have a nice day. ♥
+
