@@ -8,7 +8,7 @@ title: 使用 Github Pages 建博客
 
 首先你需要一个 [Github](http://github.com) 帐号，假设你叫「xxxx」，那么创建一个名为 「xxxx.github.com」的 Repository。
 
-随后进入项目设置 「https://github.com/**xxxx/xxxx.github.com/settings**」找到「GitHub Pages」选项一路下一步创建一个预设模板的页面。
+随后进入项目设置 「https://github.com/xxxx/xxxx.github.com/settings」找到「GitHub Pages」选项一路下一步创建一个预设模板的页面。
 
 如果顺利的话十分钟内你就能访问「xxxx.github.com」看到页面内容了。
 
@@ -22,7 +22,7 @@ title: 使用 Github Pages 建博客
 
 ![screenshot](http://scribble.muan.co/images/screenshot.png)
 
-过程同样非常简单，进入「Scribble」的项目页面点击「Download ZIP」下载，解压至「xxxx.github.com」文件夹并修改「_config.yml」和「about.md」
+过程同样非常简单，进入「Scribble」的项目页面点击「**Download ZIP**」下载，解压至「xxxx.github.com」文件夹并修改「_config.yml」和「about.md」
 
 ### 第三步
 
