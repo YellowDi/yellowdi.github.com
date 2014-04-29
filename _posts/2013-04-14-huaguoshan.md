@@ -100,7 +100,9 @@ title: 就这样爬了花果山
 不得不说，坐在上面看下面还在累死累活往上爬的人特有优越感
 花七十块就能有这种所向披靡的腾讯人生VIP体验，值
 
-![screenshot](http://b271.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/A0DLw2PZM8zF3JaZmJmoJowsvYDbVCM19NI1KcCQjwc!/b/dOOdlqFLCQAA&bo=WAIgAwAAAAABAF4!&su=0217142945&rf=2-9)
+![screenshot](http://distilleryimage2.s3.amazonaws.com/452f58689ce011e2bab822000a9f3c25_7.jpg)
+
+![screenshot](http://distilleryimage10.s3.amazonaws.com/6e453b829ce011e2a0a022000a1f968b_7.jpg)
 
 缆车的终点不是大门
 景区当然打算赚最后一笔钱
