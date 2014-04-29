@@ -1,0 +1,28 @@
+title:            YellowDi
+description:      A web developer.
+url:              http://yellowdi.github.com
+baseurl:          # Base url. ( if use subdirectory-like URL )
+signoff:          YellowDi # Your name.
+disqus_shortname: YellowDi
+google_analytics_id: # set tracking, UA-XXXX-Y.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Feed
+    url:          /feed.xml
+  - name:         Project
+    url:          http://simcity.pro
+    external:     true
+  - name:         Email
+    url:          mailto:yellowdi@me.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/YellowDi
+    external:     true
+
+pygments:         true
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:     [autolink, tables]
