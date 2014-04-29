@@ -7,15 +7,15 @@ disqus_shortname: YellowDi
 google_analytics_id: # set tracking, UA-XXXX-Y.
 
 links:
-  - name:         About
+  - name:         关于
     url:          /about
   - name:         Feed
     url:          /feed.xml
   - name:         Project
     url:          http://simcity.pro
     external:     true
-  - name:         Email
-    url:          mailto:yellowdi@me.com
+  - name:         Twitter
+    url:          http://twitter.com/YellowDi
     external:     true
   - name:         GitHub
     url:          http://github.com/YellowDi
