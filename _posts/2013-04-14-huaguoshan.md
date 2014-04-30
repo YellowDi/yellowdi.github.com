@@ -45,7 +45,7 @@ title: 就这样爬了花果山
  
 鸡公煲的老板在满城风雨中看到我这个忠实顾客，很客气在锅底放了好多鸡肉，我很感动。
 
-![screenshot](http://b272.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/7XTgVzvW1JIbvCHTTM8gTwVU0i3cbUUVV53UPkiEoAY!/b/dKy9LaJzCQAA&bo=IANYAgAAAAABAF4!&su=0202307073&rf=2-9)
+![screenshot](http://i1289.photobucket.com/albums/b504/Yell0wDi/psb-2_zps96f9184c.jpg)
 
 第二天，我么吧慕名去了花果山。
 
@@ -55,7 +55,7 @@ title: 就这样爬了花果山
 
 毫不意外的人山人海，各种旅行团落单导游吆喝着「要导游吗？要导游吗？」
 
-![screenshot](http://b270.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/SIzhtQV0n2h4AWv*FXMWACM7XU51WTt1U35B.KHIMiU!/b/dOhY86DyCQAA&bo=IANYAgAAAAABAF4!&su=0129827777&rf=2-9)
+![screenshot](http://i1289.photobucket.com/albums/b504/Yell0wDi/psb-3_zpse242a6d2.jpg)
 
 花果山果然是大风景区，从门口就开始招呼你坐车上山吧。
 我很不屑，爬山坐车都是龟儿子。
@@ -73,7 +73,7 @@ title: 就这样爬了花果山
 于是我们看到了一面石壁，上面刻着「高山流水」
 一排水龙头制造出若不经风的瀑布，一群傻逼争先恐后往一个小窟窿钻，顿时感觉这一百元的票买的真不值。
 
-![screenshot](http://b273.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/XaUyIAtP8BB8QqICY87B2i9iLWpwG4OEqE9gx*GhBTg!/b/dNMpwKJ1CQAA&bo=IANYAgAAAAABAF4!&su=091381985&rf=2-9)
+![screenshot](http://i1289.photobucket.com/albums/b504/Yell0wDi/psb-4_zps2e869612.jpg)
 
 走啊走，爬啊爬
 除了一些莫名奇妙的寺庙和水泥塔，沿途的风景还是不错的
@@ -91,7 +91,7 @@ title: 就这样爬了花果山
 挑了个好地方是时候试试新手机的全景功能了
 就在那熊孩子拉屎的地方…… 
 
-![screenshot](http://b273.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/bUmOD8zRUDDz0Z.m*dCMamb9KFbCsRhBqal2WHaINgc!/b/dJuzxKIpCQAA&bo=7A0gAwAAAAABAOU!&su=0123010945&rf=2-9)
+![screenshot](http://i1289.photobucket.com/albums/b504/Yell0wDi/psb-5_zps1dd7b218.jpg)
 
 被人挤得差不多，我们打算坐缆车下山吃饭
 缆车站上的大喇叭一直逼逼叫我们这缆车多厉害多重要
