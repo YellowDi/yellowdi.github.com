@@ -8,7 +8,7 @@ title: 使用 Github Pages 建博客
 
 首先你需要一个 [Github](http://github.com) 帐号，假设你叫「xxxx」，那么创建一个名为 「xxxx.github.com」的 Repository。
 
-随后进入项目设置 「https://github.com/xxxx/xxxx.github.com/settings」找到「GitHub Pages」选项一路下一步创建一个预设模板的页面。
+随后进入项目设置 「github.com/xxxx/xxxx.github.com/settings」找到「GitHub Pages」选项一路下一步创建一个预设模板的页面。
 
 如果顺利的话十分钟内你就能访问「xxxx.github.com」看到页面内容了。
 
