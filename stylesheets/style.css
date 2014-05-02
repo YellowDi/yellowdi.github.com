@@ -4,10 +4,16 @@ h2, h3, h4, h5 {
 html, body {
   height: 100%; }
 
+@font-face {
+  font-family: Quantico;
+  src: url("Quantico-Bold.ttf");
+  font-weight: 400;
+}
+
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Quantico", Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
