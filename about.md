@@ -26,7 +26,7 @@ Saylikes.me 是一个随机看图网站，于 2012年4月域名到期宣告关�
 
 Tweet at [@YellowDi](http://twitter.com/YellowDi), read my code on [GitHub](http://github.com/YellowDi), see my photo on [Instagram](http://instagram.com/yellowdi)
 
-<script type="text/javascript" src="http://www.douban.com/service/badge/YellowDi/?selection=latest&amp;picsize=medium&amp;hideself=on&amp;show=dolist&amp;n=20&amp;cat=music&amp;columns=6"></script>
+<script type="text/javascript" src="http://www.douban.com/service/badge/YellowDi/?selection=latest&amp;picsize=medium&amp;hideself=on&amp;show=dolist&amp;n=24&amp;cat=music&amp;columns=6"></script>
 
 You have a nice day. ♥
 
