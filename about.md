@@ -22,7 +22,7 @@ Saylikes.me 是一个随机看图网站，于 2012年4月域名到期宣告关�
 
 重新打造的模拟城市迷社区更名 SimCity.Pro，特点是简洁易用的全网模拟城市插件搜索引擎 [Spotlight](http://simcity.pro/spotlight) 和同样简洁的社区 [Sandbox](http://simcity.pro/sandbox)。
 
-### 2014-6 42
+### 2014-6 「42」42
 
 VPN 服务。
 
