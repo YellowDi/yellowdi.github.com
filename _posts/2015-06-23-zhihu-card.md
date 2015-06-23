@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 「知乎 Card」—— 为你的知乎换个新样式
+title: 修改「知乎 Card」在 Mac 上的阅读体验
 ---
 
 ##知乎 Card
