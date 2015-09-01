@@ -17,7 +17,7 @@ links:
   - name:         GitHub
     url:          http://github.com/YellowDi
     external:     true
-
+highlighter:      pygments
 pygments:         true
 permalink:        pretty
 markdown:         redcarpet
