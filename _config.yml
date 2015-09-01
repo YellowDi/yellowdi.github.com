@@ -22,4 +22,5 @@ pygments:         true
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
-  extensions:     [autolink, tables]
+  extensions:
+    - smart
