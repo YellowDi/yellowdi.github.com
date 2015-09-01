@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
@@ -7,18 +8,24 @@
     {% include header.html %}
     <div id='container'>
       {% include links.html %}
-      {% include post_pagination.html %}
+      {% include pages.html %}
       <div class="content">
         <section class='post'>
-          <h1>
+          <h1 class="upcase">
             <div class='date'>{{ page.date | date_to_string }}</div>
             {{ page.title }}
           </h1>
           {{ content }}
           {% include signoff.html %}
+
+
         </section>
       </div>
-      {% if site.disqus_shortname and page.disqus != false %}
+      {% if page.share == 'y' %}
+        {% include share.html %}
+      {% endif %}
+
+      {% if page.disqus == 'y' %}
         {% include disqus.html %}
       {% endif %}
       {% include links.html %}
