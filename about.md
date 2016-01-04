@@ -4,14 +4,20 @@ title: About
 disqus: false
 ---
 
-## Create by Mu-An
+## Hi
 
-Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
+黄迪，网名 YellowDi，Web 开发者。
 
-Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
-
-This theme is made by me. You have a nice day. ♥
-
-## Modify by Rei
-
-http://chloerei.com
+## 经历
+### 2015 年 12 月 ~ 至今 R2VG
+[R2VG](http://r2vg.com) 是一个游戏问答社区。
+### 2015 年 6 月 ~ 至今 云麻豆
+在「云麻豆」任职前端工程师。
+### 2014 年 Project 2M
+为某部开发的查询系统
+### 2013 年 Spotlight
+一个模拟城市插件的搜索引擎
+### 2012 年 SimCity.me
+[SimCity.me](http://simcity.me) 是一个关于模拟城市的玩家社区
+### 2011 年 Saylikes
+[Saylikes](http://saylike.me) 是一个随机浏览的壁纸站
