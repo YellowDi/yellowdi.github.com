@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 吓我一跳。解决 iMac 摄像头无法连接的方法 · Hexo</title><meta name="description" content="吓我一跳。解决 iMac 摄像头无法连接的方法 - John Doe"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://twitter.com/YellowDi" target="_blank" class="nav-list-link">TWITTER</a></li><li class="nav-list-item"><a href="https://github.com/YellowDi" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">吓我一跳。解决 iMac 摄像头无法连接的方法</h1><div class="post-time">Oct 26, 2015</div><div class="post-content"><p>iMac 摄像头对于我来说一直没什么存在感，可今天难得想要打一通 FaceTime 却提示我相机无法连接，我这一身冷汗啊……</p>
+<p>不过解决方法也很简单：</p>
+<ol>
+<li>关机;</li>
+<li>在确保未连接其他外接设备的情况下同事按住 Control + Option + Shift;</li>
+<li>然后按下电源键后立刻同时按住 Option + Command + P + R，此时手不要松，直到响了四声开机音乐后松手就可以进入正常的开机流程。</li>
+</ol>
+<p>完成以上操作后，摄像头就可以用了。</p>
+<p>以上操作其实就是重置硬件，换成专业术语叫做重置系统管理控制器（SMC）。当按下电源键后，立刻同时按住 Option + Command + P + R 以重置 NVRAM。Mac 会将某些设置储存在特殊内存区域中，而且即使关机这些设置也不会丢失（除非存在电池问题）。 在基于 Intel 的 Mac 上，存储位置是称为 NVRAM 的内存。当 Mac 的风扇、电源指示灯、系统性能、视频出现某些异常时候，可以通过上述方法进行重置来解决。</p>
+<p>存储在 NVRAM 中的信息包括：</p>
+<ul>
+<li>扬声器音量</li>
+<li>屏幕分辨率</li>
+<li>启动磁盘选择</li>
+<li>最近的内核崩溃信息（如果有的话）</li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2015/10/26/2014-05-09-armed/" class="prev">上一篇</a><a href="/2015/10/26/2014-05-20-titanfall/" class="next">下一篇</a></div><div class="copyright"><p>© 2015 - 2016 <a href="http://yoursite.com">John Doe</a>, unless otherwise noted.</p></div></footer><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script><script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script><script src="https://cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>

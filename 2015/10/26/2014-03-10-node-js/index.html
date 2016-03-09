@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Node.js 学习手札（一） · Hexo</title><meta name="description" content="Node.js 学习手札（一） - John Doe"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://twitter.com/YellowDi" target="_blank" class="nav-list-link">TWITTER</a></li><li class="nav-list-item"><a href="https://github.com/YellowDi" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Node.js 学习手札（一）</h1><div class="post-time">Oct 26, 2015</div><div class="post-content"><p>Node.js 就是让 JavaScript 运行在服务器端的平台。也就是说能让 JavaScript 脱离浏览器的束缚在服务器环境下像运行 Python、Perl、PHP、Ruby 那样。Python、Perl、PHP、Ruby 能做的事，Node.js 几乎都能做，而且可以做得更好。</p>
+<p>无所谓 Node.js 是怎么诞生的，只需要知道 Node.js 不是一种独立的语言，与 Python、Perl、PHP、Ruby 的「既是语言也是平台」不同。Node.js 也不是 JavaScript 框架，不同于 Django、Rails。Node.js 更不是浏览器端的库，不能与 jQuery 等相提并论。Node.js 是让 JavaScript 运行在服务器端的开发平台。</p>
+<p>另外关于 Node.js 还需要知道 Node.js 不是第一个把 JacaScript 移植到浏览器外，但却是最出色的。Node.js 的 JavaScript 引擎是 V8。没错就是来自 Chrome 的 V8 JavaScript 引擎。</p>
+<h4 id="Node-js-能做什么？"><a href="#Node-js-能做什么？" class="headerlink" title="Node.js 能做什么？"></a>Node.js 能做什么？</h4><ul>
+<li>具有复杂逻辑的网站；</li>
+<li>基于社交网络的大规模 Web 应用；</li>
+<li>Web Socket 服务器；</li>
+<li>TCP/UDP 套接字应用程序；</li>
+<li>命令行工具；</li>
+<li>交互式终端程序；</li>
+<li>带有图形用户界面的本地应用程序；</li>
+<li>单元测试工具；</li>
+<li>客户端 JavaScript 编译器。</li>
+</ul>
+<p>Node.js 内置了 HTTP 服务器支持，换句话说实现一个网站和服务器的组合根本不是事。以前用 PHP 时必须先搭建一个 Apache 之类的 HTTP 服务器，然后通过 HTTP 服务器的模块加载或 CGI 调用，才能将 PHP 脚本执行结果呈现给用户。</p>
+<h4 id="异步式-I-O-与事件驱动"><a href="#异步式-I-O-与事件驱动" class="headerlink" title="异步式 I/O 与事件驱动"></a>异步式 I/O 与事件驱动</h4><p>Node.js 最大的特点就是采用异步式 I/O 与事件驱动的架构设计。使用单线程模型，对于所有 I/O 都采用异步式的请求方式，避免了频繁的上下文切换。Node.js 在执行的过程中会维护一个事件对列，等待程序进程进行处理。</p>
+<p>传统方式：</p>
+<pre>
+res = db.query('SELECT * from some_table');
+
+res.output();
+</pre>
+
+<p>在执行到第一行的时候线程就会毫不意外的阻塞，等待数据库返回查询结果，然后再等待处理。一点也不奇怪。然而由于数据库查询可能涉及磁盘读写和网络通信，其延时可能相当大，线程会在这里阻塞等待结果返回。对于高并发的访问，一方面线程长期阻塞等待，另一方面为了应付新请求而不断增加线程，因此会浪费大量系统资源，同时线程的增多也会占用大量 CPU 时间来处理内存上下文切换，而且还容易遭受低速连接攻击。</p>
+<p>看，Node.js 是这样解决问题的：</p>
+<pre>
+db.query('SELECT * some_table', function(res) {
+
+  res.putput();
+
+});
+</pre>
+
+<p>其中 db.query 的第二个参数是一个函数，称为「回调函数」。进程在执行到 db.query 的时候，不回等待结果返回，而是直接继续执行后面的语句，知道进入事件循环。当数据库查询结果返回时，会将事件发送到事件队列，等到线程进入事件循环以后，才会调用之前的回调函数继续执行后面的逻辑。</p>
+<p>恩，Node.js 的异步机制是基于事件的，所有磁盘I/O、网络通信、数据库查询都以非阻塞的方式请求，返回的结果由事件循环来处理。也就是说 Node.js 的进程在同一时间只会处理一个事件，完成后立即进入事件循环检查并处理后面的事件。这样做的好处是，CPU 和内存在同一时间集中处理同一件事，同时尽可能让耗时的 I/O 操作并行执行。对于低速连接攻击，Node.js 只是在事件对列中增加请求，等待操作系统的回应，因而不会有任何多线程开销，很大程度上可以提高 Web 应用的健壮性，防止恶意攻击。</p>
+<p>当然这种异步事件模式的弊端也是显而易见的，因为它不符合开发者的常规思路，往往需要把一个完整的逻辑拆分为一个个事件，增加了开发和调试难度。</p>
+</div></article></div></section><footer><div class="paginator"><a href="/2015/10/26/2014-03-09-introducing-sandbox/" class="prev">上一篇</a><a href="/2015/10/26/2014-03-19-safari/" class="next">下一篇</a></div><div class="copyright"><p>© 2015 - 2016 <a href="http://yoursite.com">John Doe</a>, unless otherwise noted.</p></div></footer><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script><script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script><script src="https://cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
