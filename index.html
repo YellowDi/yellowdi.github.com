@@ -1,0 +1,36 @@
+---
+layout: post
+---
+
+<h3 class="title-works">Fun open source projects.</h3>
+<ul class="list">
+  <li>
+    <a href="https://github.com/YellowDi/vue-starter/releases" target="_blank">
+      vue-starter
+    </a><br>
+    Starter website for single page Vue.js apps. <a href="https://github.com/YellowDi/vue-starter" target="_blank">code</a>.
+  </li>
+  <li>
+    <a href="https://github.com/YellowDi/Jaina" target="_blank">
+      Jaina
+    </a><br>
+    User Interface for World of Warcraft.
+  </li>
+  <li>
+    <a href="https://github.com/YellowDi/irony" target="_blank">
+      irony
+    </a><br>
+    Remove weibo page Ad. <del>Fuck Sina!</del>.
+  </li>
+</ul>
+<h3>Writings.</h3>
+<ul class="list" data-pjax>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+      <time>{{ post.date | date: "%b %d, %Y" }}</time>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

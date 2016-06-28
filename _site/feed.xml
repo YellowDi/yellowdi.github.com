@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@yellowdi</title>
+    <description></description>
+    <link>http://yellowdi.github.io/</link>
+    <atom:link href="http://yellowdi.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Windows 10 字体显示优化方案</title>
+        <description>&lt;p&gt;对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。&lt;/p&gt;
+
+&lt;p&gt;这一最初设计思路的不同也就导致了两者在字体渲染上很大的差异。从系统开发之初确定的这一思路陆续影响到了后来的应用开发。而到了高分辨率屏幕渐渐普及的今天，传统的 GDI 引擎不能适应高分辨率，也就导致之前开发的 Win32 应用中的字体在高 DPI 情况下显示模糊或者不正常。到了 Windows 10 之后，微软对于 Universal Windows Platform 的应用一律采用 DirectWrite 进行字体渲染，所以 UWP 应用基本上不用担心高 DPI 下字体的渲染问题，在高分辨率情况下的字体渲染与显示会很好。&lt;/p&gt;
+
+&lt;p&gt;但是，Windows 10 所带字体其问题在于包含了不合适的 GASP 表 (GASP 的作用是告诉字体渲染引擎，在什么样的分辨率下采用什么样的渲染参数)。&lt;/p&gt;
+
+&lt;p&gt;😂&lt;/p&gt;
+
+&lt;p&gt;比如在高 DPI 或者大字号下面就不需要让字体渲染引擎进行 Hint (让字体在低分辨率的液晶屏幕上也能清晰显示的技术)，大量的显示器像素点完全可以达到矢量字体的设计效果。只有在字比较小或者低分辨率屏幕上，就应该启用 Hinting，否则字体就模糊了。然而，如果用户的屏幕本身已经是高分辨率的情况下，再告诉渲染引擎用 Hint 对字体进行清晰化，就会导致本来可以清晰显示的字体变得十分难看，或是高低不平，或是挤成一团。这一问题在 Windows 10 Build 10586 中有了一定的缓解。然而，对于处于高分辨率和低分辨率之间的模糊地带屏幕来说却仍然不够好。这些屏幕并没有 Retina 那样的高分辨率，但是对于普通屏幕来说分辨率也不低。就比如现在很多电脑使用的 1080p 的屏幕。使用推荐的 125% DPI情况下，字体笔画之间仍然会出现一些不协调的情况。&lt;/p&gt;
+
+&lt;p&gt;另外是存在于 Windows 7、Windows 8/8.1、Windows 10 中的一个历史遗留问题，也就是说只要是采用 GDI 引擎的传统 Win32 应用在高 DPI 下都会模糊。&lt;/p&gt;
+
+&lt;p&gt;解决方案&lt;/p&gt;
+
+&lt;p&gt;如何修正 Windows 10 的字体渲染问题？极限社区的大神 &lt;a href=&quot;http://bbs.themex.net/showthread.php?t=16903935&quot;&gt;RadarNyan&lt;/a&gt; 给出了的方案是修正 GASP 表来使所有 DPI 下均不使用 Hint 进行字体渲染。利用一个脚本可以批量将字体的 GASP 表进行修正。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;注意：以下操作涉及到系统文件修改，请注意备份。并且此修正方案在升级系统（大升级）后可能会消失。&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;备份 X:\Windows\Fonts 内的所有字体文件&lt;/li&gt;
+  &lt;li&gt;下载&lt;a href=&quot;http://pan.baidu.com/s/1i3CQdYd&quot;&gt;这个&lt;/a&gt;已修正完成的字体包手动替换&lt;/li&gt;
+  &lt;li&gt;重启电脑&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最后，你会发现 DirectWrite 下面字体的显示有了很大的提升。另外搭配使用 MacType 来解决传统字体引擎 GDI 的历史遗留问题。最后附上几张效果图（由 DirectWrite 渲染，DPI 设置为 100%）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xp63o.com1.z0.glb.clouddn.com/UWP-1.png&quot; alt=&quot;网易云音乐 UWP 版渲染效果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xp63o.com1.z0.glb.clouddn.com/UWP-2.png&quot; alt=&quot;网易云音乐 UWP 版渲染效果&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 28 Jun 2016 00:00:00 +0800</pubDate>
+        <link>http://yellowdi.github.io//2016/06/28/make-windows10-font-look-better/</link>
+        <guid isPermaLink="true">http://yellowdi.github.io//2016/06/28/make-windows10-font-look-better/</guid>
+      </item>
+    
+  </channel>
+</rss>
