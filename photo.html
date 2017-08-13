@@ -1,0 +1,41 @@
+---
+layout: default
+title: Photo of YellowDi
+pageTitle: "Photo"
+route: photo
+
+links:
+
+# 2016
+
+- name: 多多
+  url: duoduo.jpg
+  category: dog
+  description: my dog
+---
+
+<main id="links" class="items">
+  {% for link in page.links %}
+    <article class="item columns">
+      <div class="column is-3">
+        <p class="item-info">
+          <span>{{link.category}}</span>
+        </p>
+      </div>
+      <div class="column is-6">
+        <img src="/images/photo/{{link.url}}" alt="">
+        <h2 class="item-box">
+          <a class="item-box-link" href="{{link.url}}">
+            <span class="item-box-background"></span>
+            <span class="item-box-text">{{link.name}}</span>
+          </a>
+        </h2>
+        <p class="item-info">
+        </p>
+        <p class="item-content">
+          {{link.description}}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</main>

@@ -1,0 +1,19 @@
+{% if page.route == "index" %}
+  <a id="jt" class="nav-link jt {% if page.route == 'index' %} is-active{% endif %}"
+    href="/"
+    data-title=""
+    data-color="#FF5724"
+    data-invert="true"
+    data-other-color="honeydew">
+    {% include icons/up.html %}
+  </a>
+{% else %}
+  <a id="jt" class="nav-link jt {% if page.route == 'index' %} is-active{% endif %}"
+    href="/"
+    data-title=""
+    data-color="#FF5724"
+    data-invert="true"
+    data-other-color="honeydew">
+    {% include icons/up.html %}
+  </a>
+{% endif %}

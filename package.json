@@ -1,0 +1,27 @@
+{
+  "name": "yellowdi",
+  "version": "1.0.0",
+  "description": "Website of YellowDi",
+  "main": "css/main.sass",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/main.css css/main.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true main.sass css/main.css",
+    "develop": "node-sass main.sass css/main.css",
+    "start": "npm run develop -- --watch"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "jekyll"
+  ],
+  "author": "YellowDi <yellowdi@me.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.0",
+    "rimraf": "^2.6.1"
+  }
+}

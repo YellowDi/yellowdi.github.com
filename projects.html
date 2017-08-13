@@ -1,0 +1,78 @@
+---
+layout: default
+title: Projects by YellowDi
+pageTitle: "Projects"
+route: projects
+
+projects:
+- name: Elenore
+  url: https://yellowdi.github.io/Elenore/
+  slug: elenore
+  date: Jul 2017
+  content: >
+    <p>Elenore is an open source CSS framework based on Flexbox and built with Sass.It's 100% responsive, fully modular, and available for free.</p>
+  icons: ['creative-commons-icon', 'github-alt', 'css3']
+
+- name:  云麻豆
+  device: imac
+  url: http://yunmodel.com/
+  slug: yunmodel
+  date: Sep 2016
+  content: >
+    <p>第一次正经的在公司里上班，承担官网、以及其他活动页面的设计制作。经历差不多三次大的版本迭代，虽然产品最终没有成功，但这段经历十分有趣</p>
+  icons: ['html5', 'css3']
+---
+
+<main id="projects">
+{% for project in page.projects %}
+  <article class="item project project--{{project.slug}}">
+
+    <div class="item-container">
+      <div class="columns">
+        <div class="column is-2">
+          <p class="item-info">{{project.date}}</p>
+        </div>
+
+        <div class="column is-5">
+          <h2 class="item-box projects-title">
+            <a class="item-box-link" href="{{project.url}}">
+              <span class="item-box-background"></span>
+              <span class="item-box-text">{{project.name}}</span>
+            </a>
+          </h2>
+
+          <p class="item-link">
+            <a href="{{project.url}}">
+              {% if project.domain == nil or project.domain == "" %}
+                {{project.url | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first}}
+              {% else %}
+                {{project.domain}}
+              {% endif %}
+            </a>
+          </p>
+
+          <div class="item-content">
+            {{project.content}}
+          </div>
+
+          <ul class="item-icons">
+            {% for icon in project.icons %}
+              {% assign svgpath = icon | prepend: "svg/" | append: ".html" %}
+              <li>{% include {{svgpath}} %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="column is-5">
+          <a class="item-image" href="{{project.url}}">
+            <img class="b-lazy" data-src="/images/projects/{{project.slug}}.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            <noscript>
+              <img src="/images/projects/{{project.slug}}.png">
+            </noscript>
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</main>

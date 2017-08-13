@@ -1,82 +1,63 @@
-<!doctype>
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <header class="header" data-pjax>
-      <a href="/" class="home js-head">&nbsp;</a>
-    </header>
+---
+layout: default
+route: post
+---
 
-    <div class="wrapper">
-      {% unless page.date %}
-      <div class="sidebar">
-        <h3>
-          Hello hi!
-        </h3>
-        <p>
-          I'm YellowDi. I love building things with code.
-        </p>
-        <p>
-          I work at <a href="http://r2vg.com/"><mark>R2VG</mark></a> as a designer and developer.
-        </p>
-        <h3 class="title-pictures">Pictures with fun facts.</h3>
-        <div class="photos">
-          <a href="https://www.instagram.com/p/BE6X-l9BSax" class="p-1 photo" target="_blank"><img alt="I work in the Yunmodel Inc for one years." src="/images/yunmodel.jpg"></a>
-          <a href="https://www.instagram.com/p/qnmctLhSdQ" class="p-2 photo" target="_blank"><img alt="I started playing Battlefield" src="/images/battlefield.jpg"></a>
-          <a href="https://www.instagram.com/p/hKv_zGhSbP" class="p-3 photo" target="_blank"><img alt="I lived in Lianyungang from 2012 to 2014." src="/images/lianyungang.jpg"></a>
-          <a href="https://www.instagram.com/p/BFgz2qfhSY6" class="p-4 photo" target="_blank"><img alt="The last of Us is best!!!" src="/images/thelastofus.jpg"></a>
-          <div class="caption c-1">I work in the Yunmodel Inc for one years.</div>
-          <div class="caption c-2">I started playing Battlefield</div>
-          <div class="caption c-3">I lived in Lianyungang from 2012 to 2014.</div>
-          <div class="caption c-4">The last of Us is best!!!</div>
-        </div>
+<header id="{{page.id | remove:'/'}}" class="heading {% if page.recommended == true %} is-recommended{% endif %}">
+  {% if page.backgroundImage %}
+    <figure class="heading-background" style="background-image: url(/images/articles/{{page.backgroundImage}})"></figure>
+  {% endif %}
+  {% if page.customImage %}
+    <img class="heading-customimage" src="/images/articles/{{page.customImage}}">
+  {% endif %}
+  <div class="heading-container">
+    <p class="heading-info">
+      {{page.date | date_to_string}} in {{page.category}}
+    </p>
+    <h1 class="heading-title">{{page.title}}</h1>
+    <h2 class="heading-introduction">{{page.introduction}}</h2>
+  </div>
+</header>
 
-        <h3 class="title-contact">Contact &amp; Interwebs.</h3>
-        <p>
-          Via twitter <a href="https://twitter.com/yellowdi" target="_blank">@yellowdi</a> or github <a href="https://github.com/yellowdi" target="_blank">@yellowdi</a>. Must-be-email emails should be sent to yellowdi#me.com.
-        </p>
-        <p>
-          I'm also on
-          <a href="https://instagram.com/yellowdi" target="_blank">Instagram</a>,
-          <a href="https://www.zhihu.com/people/YellowDi" target="_blank">Zhihu</a>, and
-          <a href="https://www.douban.com/people/YellowDi/" target="_blank">Douban</a>.
-        </p>
-      </div>
-      {% endunless %}
-      <div class="column js-content">
-        {% if page.date %}
-          <article>
-            <header class="post-header">
-              <h3 class="post-title">{{ page.title }}</h3>
-              {% if page.date %}
-                <small>
-                  {{ page.date | date_to_string }} -
-                  by <a href="https://twitter.com/yellowdi" target="_blank">@yellowdi</a>
-                </small>
-              {% endif %}
-            </header>
-            {{ content }}
-          </article>
-          <div class="pagination" data-pjax>
-            {% if page.previous %}
-              <a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
-                &lt; {{ page.previous.title }}
-              </a>
-            {% endif %}
-            {% if page.next %}
-              <a class="page-nav" href="{{ page.next.url }}" id="js-next-post">
-                {{ page.next.title }} &gt;
-              </a>
-            {% endif %}
-          </div>
-        {% else %}
-          {{ content }}
-        {% endif %}
-      </div>
-    </div>
-    <footer class="footer">
-      The end.
-    </footer>
-  </body>
-</html>
+<section id="post" class="post-main">
+  <div class="container">
+    <article id="content" class="post-content">
+      {{content}}
+    </article>
+  </div>
+</section>
+
+<nav class="post-pagination">
+  <div class="container">
+    <nav class="post-pagination-share">
+    </nav>
+
+    {% if page.previous %}
+      <a class="post-pagination-link is-next" href="{{page.previous.url}}" rel="previous">
+        Next &rarr;
+        <strong>{{page.previous.title}}</strong>
+      </a>
+    {% else %}
+      <a class="post-pagination-link is-next" href="/articles" rel="previous">
+        Back to articles! &uarr;
+        <strong>You've reached the end</strong>
+      </a>
+    {% endif %}
+
+    <nav class="post-pagination-before">
+      {% if page.next %}
+        <a class="post-pagination-link is-previous" href="{{page.next.url}}" rel="next">
+          &larr; Previous
+        </a>
+      {% else %}
+        <span class="post-pagination-link is-previous is-disabled">
+          &larr; Previous
+        </span>
+      {% endif %}
+
+      <a id="top" class="post-pagination-link is-top">
+        Back to top &uarr;
+      </a>
+    </nav>
+  </div>
+</nav>

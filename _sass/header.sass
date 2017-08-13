@@ -1,0 +1,68 @@
+header
+  +center
+  flex-direction: column
+  height: 40vh
+
+html.is-index
+  .header
+    min-height: 100vh
+    justify-content: space-between
+    padding-bottom: 3rem
+    padding-top: calc(20vh - 4rem)
+
+.hello
+  +container(27em)
+  font-size: 1.2rem
+  h1
+    @extend %title
+    font-size: 1.6em
+  p
+    color: $text-light
+    font-size: 0.8em
+    margin-top: 2em
+    a
+      color: currentColor
+      &.is-elenore
+        color: $elenore
+  small
+    display: block
+    font-size: 0.8em
+    line-height: 1.4
+  abbr
+    border-bottom: 1px dotted
+    cursor: help
+
+.hello a
+  display: inline-block
+  position: relative
+  transform: scale(1)
+  transform-origin: center
+  transition-duration: $speed
+  transition-property: transform
+  strong
+    color: currentColor
+  .item-box-background
+    background-color: $white
+    bottom: -0.25em
+    box-shadow: 0 0.5em 1em rgba(black, 0.2)
+    left: -0.25em
+    right: -0.25em
+    top: -0.25em
+  &:hover
+    z-index: 96
+    .item-box-background
+      opacity: 1
+  +tablet
+    &:hover
+      transform: scale(1.04)
+      .item-box-background
+        transform: scale(1.07, 1.14)
+
+.hello a.is-elenore
+  .item-box-background
+    left: -0.5em
+    right: -0.5em
+
++desktop
+  .hello
+    font-size: 1.6rem

@@ -1,0 +1,48 @@
+{% for post in site.posts %}
+  {% capture currentyear %}
+    {{post.date | date: "%Y"}}
+  {% endcapture %}
+
+  {% assign month = post.date | date: "%-m" %}
+
+  {% capture currentseason %}{% case month %}{% when "1" %}win{% when "2" %}win{% when "3" %}win{% when "4" %}spr{% when "5" %}spr{% when "6" %}spr{% when "7" %}sum{% when "8" %}sum{% when "9" %}sum{% when "10" %}aut{% when "11" %}aut{% when "12" %}aut{% endcase %}{% endcapture %}
+
+  {% if false && currentseason != season %}
+    {% if currentyear != year %}
+      <section class="articles-year">{{currentyear}}</section>
+      {% capture year %}{{currentyear}}{% endcapture %}
+    {% endif %}
+    <section class="articles-season is-{{currentseason}}">{{currentseason}}</section>
+    <hr class="articles-border">
+    {% capture season %}{{currentseason}}{% endcapture %}
+  {% endif %}
+
+  <article id="{{post.id | remove:'/'}}" class="item is-{{post.category | downcase}}{% if post.recommended == true %} is-recommended{% endif %}">
+    {% if post.backgroundImage %}
+      <figure class="item-background" style="background-image: url(/images/articles/{{post.backgroundImage}})"></figure>
+    {% endif %}
+    {% if post.customImage %}
+      <img class="item-customimage" src="/images/articles/{{post.customImage}}">
+    {% endif %}
+    <div class="item-container">
+      <div class="columns">
+        <div class="column is-3">
+          <p class="item-info">
+            {{post.date | date_to_string}}
+          </p>
+        </div>
+        <div class="column {% if post.recommended == true %}is-6{% else %}is-6{% endif %}">
+          <h2 class="item-box">
+            <a class="item-box-link" href="{{post.url}}">
+              <span class="item-box-background"></span>
+              <span class="item-box-text">{{post.title}}</span>
+            </a>
+          </h2>
+          {% if post.introduction %}
+            <p class="item-introduction">{{post.introduction}}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </article>
+{% endfor %}

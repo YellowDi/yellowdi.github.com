@@ -2,6 +2,9 @@
 layout: post
 date: 2016-06-28
 title: Windows 10 字体显示优化方案
+category: blog
+recommended: true
+backgroundImage: you-can-you-up.jpg
 ---
 
 对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。
@@ -31,5 +34,3 @@ title: Windows 10 字体显示优化方案
 ![网易云音乐 UWP 版渲染效果](http://7xp63o.com1.z0.glb.clouddn.com/UWP-1.png)
 
 ![网易云音乐 UWP 版渲染效果](http://7xp63o.com1.z0.glb.clouddn.com/UWP-2.png)
-
-
