@@ -10,12 +10,3 @@ permalink:     pretty
 url:           https://yellowdi.github.io
 fontawesome:   https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 exclude:       ['fontawesome', 'node_modules', 'templates', '.babelrc', 'elenore-docs.sass', 'docker-compose.yml', 'package.json', 'yarn.lock']
-
-# Variables
-
-documentation: "/documentation/overview/start/"
-download:      https://github.com/YellowDi/Elenore/archive/1.1.0.zip
-github:        https://github.com/YellowDi/Elenore
-twitter:       https://twitter.com/YellowDi
-version:       1.1.0
-vernum:        44

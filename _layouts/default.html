@@ -21,9 +21,7 @@
       {% endif %}
       {% include navbar.html %}
     </header>
-    {% if page.route != "index" and  page.layout != "post" %}
-      {% include glyph.html %}
-    {% endif %}
+    
     <h1 id="title" class="title">
       <div>
         {{page.pageTitle}}
@@ -33,13 +31,10 @@
       {{content}}
     </main>
     <footer class="elsewhere">
-      <a data-color="#55acee" data-title="" class="elsewhere-link is-twitter" href="https://twitter.com/yellowdi">
-        {% include svg/twitter.html %}
-      </a>
-      <a data-color="#333333" data-title="" class="elsewhere-link is-github" href="https://github.com/yellowdi">
+      <a data-color="#5372C9" data-title="" data-invert="true" class="elsewhere-link is-github" href="https://github.com/yellowdi">
         {% include svg/github.html %}
       </a>
-      <a data-color="#333333" data-title="" class="elsewhere-link is-instagram" href="https://instagram.com/yellowdi">
+      <a data-color="#FED038" data-title="" data-invert="true" class="elsewhere-link is-instagram" href="https://instagram.com/yellowdi">
         {% include svg/instagram.html %}
       </a>
     </footer>
