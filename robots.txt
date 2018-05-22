@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /lab/version/
+
+
+Sitemap: https://yellowdi.github.io/http://yellowdi.github.io/sitemap.xml

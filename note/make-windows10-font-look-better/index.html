@@ -1,0 +1,839 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+<!--
+  Apply head only for dev environment, this is required for jekyll to
+  insert livereload scripts
+-->
+
+
+
+
+<title>Windows 10 字体显示优化方案 - YellowDi</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- Define a description for better SEO result -->
+<meta name="description" content="对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。 这一最初设计思路的不同也就导致了两者在字体渲染上很大的差异。从系统开发之初确定的这一思路陆续影响到了后来的应用开发。而到了高分辨率屏幕渐渐普及的今天，传统的 GDI 引擎不能适应高分辨率，也就导致之前开发的 Win32 应用中的字体在高 DPI 情况下显示模糊或者不正常...">
+
+<!-- Cheome Web App theme color -->
+<meta name="theme-color" content="#fddf7c">
+
+<!-- Feed URL -->
+<link rel="alternate" href="/http://yellowdi.github.io/feed.xml" type="application/atom+xml">
+
+<!-- Site icons -->
+
+  
+    
+
+    
+
+    
+
+    
+      <link rel="apple-touch-icon" href="/http://yellowdi.github.io/apple-touch-icon.png">
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+      <link rel="icon" href="/http://yellowdi.github.io/favicon.png" type="image/png">
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+      <link rel="icon" href="/http://yellowdi.github.io/favicon.svg?assets-inline-assets-keep" sizes="any" type="image/svg+xml">
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+      <link rel="mask-icon" href="/http://yellowdi.github.io/mask-icon.svg" color="#fddf7c">
+    
+
+    
+  
+
+
+<!-- Chrome Web App manifest -->
+<link rel="manifest" href="/http://yellowdi.github.io/manifest.json">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="/http://yellowdi.github.io/assets/themes/curtana/css/app.css?assets-inline">
+
+<!-- Canonical links, avoid duplicate content problems -->
+<link rel="canonical" href="https://yellowdi.github.io/http://yellowdi.github.io/note/make-windows10-font-look-better/">
+
+<!-- DNS prefetching for static files -->
+
+
+<!-- Head hooks -->
+
+
+
+
+<!-- Open Graph and Twitter Cards support, more info: https://dev.twitter.com/docs/cards -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="YellowDi">
+<meta property="og:title" content="Windows 10 字体显示优化方案">
+<meta property="og:url" content="https://yellowdi.github.io/http://yellowdi.github.io/note/make-windows10-font-look-better/">
+<meta property="og:description" content="对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。 这一最初设计思路的不同也就导致了两者在字体渲染上很大的差异。从系统开发之初确定的这一思路陆续影响到了后来的应用开发。而到了高分辨率屏幕渐渐普及的今天，传统的 GDI 引擎不能适应高分辨率，也就导致之前开发的 Win32 应用中的字体在高 DPI 情况下显示模糊或者不正常...">
+<meta property="og:image" content="http://7xp63o.com1.z0.glb.clouddn.com/UWP-1.png">
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <meta name="twitter:site" content="@yellowdi">
+
+
+
+  <meta name="twitter:creator" content="@yellowdi">
+
+
+
+  <meta property="article:published_time" content="2016-06-28T00:00:00+08:00">
+  <meta property="article:modified_time" content="2018-05-15T16:13:31+08:00">
+  <meta name="twitter:label1" value="Words">
+  <meta name="twitter:data1" value="118 words">
+  <meta name="twitter:label2" value="Reading time">
+  <meta name="twitter:data2" value="Less than 1 min">
+
+
+<!-- Post specified styles -->
+<style data-assets-inline>
+  /*
+    TODO: You have to speicify background color for `html` in order to make `-webkit-filter` work
+    Link: https://bugs.chromium.org/p/chromium/issues/detail?id=591015
+    Date: Mar 1, 2016, 5:41 PM
+  */
+  html {
+    
+  }
+
+  body {
+    
+
+    
+
+    
+  }
+
+  
+
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+
+  /*
+    TODO: Need a better solution. I have to redefine the whole box-shadow here because no invidual box-shadow-color exists
+    Date: Mar 12, 2016, 12:09 AM
+  */
+  
+
+  
+
+  
+
+  
+</style>
+
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class="navigation">
+  <ul>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/http://yellowdi.github.io/">
+          
+            YellowDi
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/http://yellowdi.github.io/work/">
+          
+            Work
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li class=current>
+        <a href="/http://yellowdi.github.io/note/">
+          
+            Note
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/http://yellowdi.github.io/about/">
+          
+            About
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+<!-- Main content wrap -->
+<main class="content " role=main>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Post-wide custom CSS -->
+
+  
+
+
+<!-- Article wrapper, limit width -->
+<article 
+  
+>
+
+  <!-- Post title -->
+  <header 
+  style="     "
+>
+
+    <h1 class="
+  
+" title="Windows 10 字体显示优化方案" data-title="Windows 10 字体显示优化方案">
+      
+  
+    
+  
+    Windows 10 字体显示优化方案<span class="dot dot--post"> </span>
+  
+
+  
+
+    </h1>
+
+    
+      <small>
+        By <span rel="author">YellowDi</span>
+        on <time datetime="2016-06-28T00:00:00+08:00">Jun 28, 2016</time>
+      </small>
+    
+
+    
+
+  </header>
+
+  <!-- Post content -->
+  <div class="post-content">
+    <p>对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。</p>
+
+<p>这一最初设计思路的不同也就导致了两者在字体渲染上很大的差异。从系统开发之初确定的这一思路陆续影响到了后来的应用开发。而到了高分辨率屏幕渐渐普及的今天，传统的 GDI 引擎不能适应高分辨率，也就导致之前开发的 Win32 应用中的字体在高 DPI 情况下显示模糊或者不正常。到了 Windows 10 之后，微软对于 Universal Windows Platform 的应用一律采用 DirectWrite 进行字体渲染，所以 UWP 应用基本上不用担心高 DPI 下字体的渲染问题，在高分辨率情况下的字体渲染与显示会很好。</p>
+
+<p>但是，Windows 10 所带字体其问题在于包含了不合适的 GASP 表 (GASP 的作用是告诉字体渲染引擎，在什么样的分辨率下采用什么样的渲染参数)。</p>
+
+<p>😂</p>
+
+<p>比如在高 DPI 或者大字号下面就不需要让字体渲染引擎进行 Hint (让字体在低分辨率的液晶屏幕上也能清晰显示的技术)，大量的显示器像素点完全可以达到矢量字体的设计效果。只有在字比较小或者低分辨率屏幕上，就应该启用 Hinting，否则字体就模糊了。然而，如果用户的屏幕本身已经是高分辨率的情况下，再告诉渲染引擎用 Hint 对字体进行清晰化，就会导致本来可以清晰显示的字体变得十分难看，或是高低不平，或是挤成一团。这一问题在 Windows 10 Build 10586 中有了一定的缓解。然而，对于处于高分辨率和低分辨率之间的模糊地带屏幕来说却仍然不够好。这些屏幕并没有 Retina 那样的高分辨率，但是对于普通屏幕来说分辨率也不低。就比如现在很多电脑使用的 1080p 的屏幕。使用推荐的 125% DPI情况下，字体笔画之间仍然会出现一些不协调的情况。</p>
+
+<p>另外是存在于 Windows 7、Windows 8/8.1、Windows 10 中的一个历史遗留问题，也就是说只要是采用 GDI 引擎的传统 Win32 应用在高 DPI 下都会模糊。</p>
+
+<p>解决方案</p>
+
+<p>如何修正 Windows 10 的字体渲染问题？极限社区的大神 <a href="http://bbs.themex.net/showthread.php?t=16903935">RadarNyan</a> 给出了的方案是修正 GASP 表来使所有 DPI 下均不使用 Hint 进行字体渲染。利用一个脚本可以批量将字体的 GASP 表进行修正。</p>
+
+<p><code class="highlighter-rouge">注意：以下操作涉及到系统文件修改，请注意备份。并且此修正方案在升级系统（大升级）后可能会消失。</code></p>
+
+<ol>
+  <li>备份 X:\Windows\Fonts 内的所有字体文件</li>
+  <li>下载<a href="http://pan.baidu.com/s/1i3CQdYd">这个</a>已修正完成的字体包手动替换</li>
+  <li>重启电脑</li>
+</ol>
+
+<p>最后，你会发现 DirectWrite 下面字体的显示有了很大的提升。另外搭配使用 MacType 来解决传统字体引擎 GDI 的历史遗留问题。最后附上几张效果图（由 DirectWrite 渲染，DPI 设置为 100%）</p>
+
+<p><img src="http://7xp63o.com1.z0.glb.clouddn.com/UWP-1.png" alt="网易云音乐 UWP 版渲染效果" /></p>
+
+<p><img src="http://7xp63o.com1.z0.glb.clouddn.com/UWP-2.png" alt="网易云音乐 UWP 版渲染效果" /></p>
+
+
+    
+    
+
+    
+      <footer class="post-modified-date">
+        <p>
+          Updated
+          <time datetime=" 2018-05-15T16:13:31+08:00 ">
+            Tuesday, May 15, 2018
+          </time>
+        </p>
+      </footer>
+    
+  </div>
+
+</article>
+
+
+</main>
+
+<!-- Footer section -->
+
+  <footer class="footer">
+    <ul>
+      <li><a href="/http://yellowdi.github.io/">YellowDi</a></li>
+
+      
+        <li><a href="#" title="R2">R2</a></li>
+      
+
+      
+    </ul>
+  </footer>
+
+
+<!-- Theme scripts -->
+<script src="/http://yellowdi.github.io/assets/themes/curtana/js/app.js?assets-inline"></script>
+
+<!-- User scripts -->
+<script src="/http://yellowdi.github.io/assets/js/user.js?assets-inline"></script>
+
+<!-- Mona -->
+<script src="/http://yellowdi.github.io/assets/themes/curtana/js/mona.min.js?assets-inline"></script>
+<script>
+  window.addEventListener('load', function () {
+    Mona('p > img:not(.no-mona),.mona');
+  }, false);
+</script>
+
+<!-- Service Worker  -->
+
+  
+    <script>
+      if ('serviceWorker' in navigator && window.location.hostname === 'yellowdi.github.io') {
+        navigator.serviceWorker.register('/http://yellowdi.github.io/service-worker.js').then(function (registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      }
+    </script>
+  
+
+
+<!-- Google Analytics -->
+
+  
+
+
+<!-- Foot hooks -->
+
+
+
