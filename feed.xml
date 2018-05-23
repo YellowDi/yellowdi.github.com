@@ -137,16 +137,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YellowDi</title>
   <subtitle>I make things that don’t suck.</subtitle>
-  <updated>2018-05-22T15:40:05+08:00</updated>
-  <id>https://yellowdi.github.io/https://yellowdi.github.io/</id>
+  <updated>2018-05-23T09:20:54+08:00</updated>
+  <id>https://yellowdi.github.io/</id>
   <generator uri="https://sparanoid.com/lab/amsf/" version="24.2.4">Almace Scaffolding</generator>
 
-  <link rel="alternate" type="text/html" hreflang="en" href="https://yellowdi.github.io/https://yellowdi.github.io/" />
-  <link rel="self" type="application/atom+xml" href="https://yellowdi.github.io/https://yellowdi.github.io/feed.xml" />
+  <link rel="alternate" type="text/html" hreflang="en" href="https://yellowdi.github.io/" />
+  <link rel="self" type="application/atom+xml" href="https://yellowdi.github.io/feed.xml" />
 
   <author>
     <name>YellowDi</name>
-    <uri>https://yellowdi.github.io/https://yellowdi.github.io/</uri>
+    <uri>https://yellowdi.github.io/</uri>
     <email>yellowdi@me.com</email>
   </author>
 
@@ -158,8 +158,8 @@
 
       <entry>
         <title>Mona.js</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/monajs/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/monajs/" />
+        <id>https://yellowdi.github.io/work/monajs/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/work/monajs/" />
         <published>2018-05-14T00:00:00+08:00</published>
 
         
@@ -172,7 +172,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;Mona.js 是一款纯 JavaScript 图片缩放库，主要特点有：&lt;/p&gt;
 
@@ -268,8 +268,8 @@
 
       <entry>
         <title>Elenore</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/elenore/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/elenore/" />
+        <id>https://yellowdi.github.io/work/elenore/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/work/elenore/" />
         <published>2017-07-22T00:00:00+08:00</published>
 
         
@@ -282,7 +282,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;In case you missed it: I recently created a &lt;a href=&quot;https://path.com/&quot;&gt;Path&lt;/a&gt; menu using CSS. You can view the demo &lt;a href=&quot;/lab/path-menu/&quot;&gt;on my website&lt;/a&gt; or check it out on &lt;a href=&quot;http://drbl.in/cwcK&quot;&gt;Dribbble&lt;/a&gt;.&lt;/p&gt;
 
@@ -305,8 +305,8 @@
 
       <entry>
         <title>Illuminate.css</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/illuminate/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/illuminate/" />
+        <id>https://yellowdi.github.io/work/illuminate/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/work/illuminate/" />
         <published>2016-11-09T00:00:00+08:00</published>
 
         
@@ -319,7 +319,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;A tiny modern CSS reset that covers the basics:&lt;/p&gt;
 
@@ -357,8 +357,8 @@
 
       <entry>
         <title>Windows 10 字体显示优化方案</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/make-windows10-font-look-better/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/make-windows10-font-look-better/" />
+        <id>https://yellowdi.github.io/note/make-windows10-font-look-better/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/make-windows10-font-look-better/" />
         <published>2016-06-28T00:00:00+08:00</published>
 
         
@@ -371,7 +371,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;对于我个人而来，我始终认为 macOS 在字体渲染上要优于 Windows。对于字体的渲染和显示的思路是要让屏幕上显示的字体和在纸上打印的效果一样的 macOS 而言，微软 Windows 的思路则是经可能适应更多的设备，也就是说 Windows 需要字体在低分辨率设备上也能看清楚，即便如此会导致字体笔画发生一定的改变。&lt;/p&gt;
 
@@ -422,8 +422,8 @@
 
       <entry>
         <title>「放娘的狗屁」</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/what-am-i/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/what-am-i/" />
+        <id>https://yellowdi.github.io/note/what-am-i/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/what-am-i/" />
         <published>2016-05-26T00:00:00+08:00</published>
 
         
@@ -436,7 +436,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;&lt;img src=&quot;http://7xp63o.com1.z0.glb.clouddn.com/CjW8O_mUgAAPCxn.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -459,8 +459,8 @@
 
       <entry>
         <title>Seattle</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/seattle/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/seattle/" />
+        <id>https://yellowdi.github.io/work/seattle/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/work/seattle/" />
         <published>2015-08-24T00:00:00+08:00</published>
 
         
@@ -473,7 +473,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;&lt;img src=&quot;http://7xp63o.com1.z0.glb.clouddn.com/Seattle.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
@@ -500,8 +500,8 @@
 
       <entry>
         <title>Project 2M</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/project-2m/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/project-2m/" />
+        <id>https://yellowdi.github.io/note/project-2m/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/project-2m/" />
         <published>2013-09-23T00:00:00+08:00</published>
 
         
@@ -514,7 +514,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;我和王欢想到把一种多用户协同维护数据的工作机制带入我们单位这个技术荒野。动机很简单，现有的手段实在太原始了，完全是在浪费时间做重复的事，而且每个单位又很难做到资料上的同步，和别人核对资料还需要夹着电话一个个比对，这简直是八十年代啊。所以我们想用现拥有的能力改变这一切。&lt;/p&gt;
 
@@ -547,8 +547,8 @@
 
       <entry>
         <title>恋爱中男生最幸福的时刻是什么时候？</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/what-time-is-the-love-of-boys-is-the-happiest-moment/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/what-time-is-the-love-of-boys-is-the-happiest-moment/" />
+        <id>https://yellowdi.github.io/note/what-time-is-the-love-of-boys-is-the-happiest-moment/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/what-time-is-the-love-of-boys-is-the-happiest-moment/" />
         <published>2013-04-07T00:00:00+08:00</published>
 
         
@@ -561,7 +561,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;今天在知乎看到一个问题「恋爱中男生最幸福的时刻是什么时候？」&lt;/p&gt;
 
@@ -590,8 +590,8 @@
 
       <entry>
         <title>2012</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/goodbye-2012/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/goodbye-2012/" />
+        <id>https://yellowdi.github.io/note/goodbye-2012/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/goodbye-2012/" />
         <published>2012-12-31T00:00:00+08:00</published>
 
         
@@ -604,7 +604,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;今天是2012年的最后一天。&lt;/p&gt;
 
@@ -649,8 +649,8 @@
 
       <entry>
         <title>我们各自努力，朝着不同的方向</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/different-life/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/different-life/" />
+        <id>https://yellowdi.github.io/note/different-life/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/different-life/" />
         <published>2012-10-03T00:00:00+08:00</published>
 
         
@@ -663,7 +663,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;那是一个大年三十，风很冷。小阿姨工作的饭店里大多数职工都回家过年，没什么人，我和老弟就去端端菜收收钱之类的，没什么技术含量。即使过年饭店依旧要开着，要给那些懒得在家做团圆饭的人一张桌子和一些菜，让他们吃得开心。&lt;/p&gt;
 
@@ -698,8 +698,8 @@
 
       <entry>
         <title>Hello World</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/note/hello-world/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/note/hello-world/" />
+        <id>https://yellowdi.github.io/note/hello-world/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/note/hello-world/" />
         <published>1993-09-29T00:00:00+08:00</published>
 
         
@@ -712,7 +712,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io/">
           
             &lt;p&gt;Yes, it’s me.&lt;/p&gt;
 

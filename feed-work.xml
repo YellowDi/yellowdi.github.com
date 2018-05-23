@@ -139,16 +139,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YellowDi</title>
   <subtitle>I make things that don’t suck.</subtitle>
-  <updated>2018-05-22T15:40:05+08:00</updated>
-  <id>https://yellowdi.github.io/https://yellowdi.github.io/</id>
+  <updated>2018-05-23T09:20:54+08:00</updated>
+  <id>https://yellowdi.github.io//</id>
   <rights>Copyright © 2018, YellowDi</rights>
 
-  <link rel="alternate" type="text/html" hreflang="en" href="https://yellowdi.github.io/https://yellowdi.github.io/" />
-  <link rel="self" type="application/atom+xml" href="https://yellowdi.github.io/https://yellowdi.github.io/feed-work.xml" />
+  <link rel="alternate" type="text/html" hreflang="en" href="https://yellowdi.github.io//" />
+  <link rel="self" type="application/atom+xml" href="https://yellowdi.github.io/feed-work.xml" />
 
   <author>
     <name>YellowDi</name>
-    <uri>https://yellowdi.github.io/https://yellowdi.github.io/</uri>
+    <uri>https://yellowdi.github.io//</uri>
     <email>yellowdi@me.com</email>
   </author>
 
@@ -160,8 +160,8 @@
 
       <entry>
         <title>Mona.js</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/monajs/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/monajs/" />
+        <id>https://yellowdi.github.io//work/monajs/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io//work/monajs/" />
         <published>2018-05-14T00:00:00+08:00</published>
 
         
@@ -174,7 +174,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io//">
           
             &lt;p&gt;Mona.js 是一款纯 JavaScript 图片缩放库，主要特点有：&lt;/p&gt;
 
@@ -270,8 +270,8 @@
 
       <entry>
         <title>Elenore</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/elenore/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/elenore/" />
+        <id>https://yellowdi.github.io//work/elenore/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io//work/elenore/" />
         <published>2017-07-22T00:00:00+08:00</published>
 
         
@@ -284,7 +284,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io//">
           
             &lt;p&gt;In case you missed it: I recently created a &lt;a href=&quot;https://path.com/&quot;&gt;Path&lt;/a&gt; menu using CSS. You can view the demo &lt;a href=&quot;/lab/path-menu/&quot;&gt;on my website&lt;/a&gt; or check it out on &lt;a href=&quot;http://drbl.in/cwcK&quot;&gt;Dribbble&lt;/a&gt;.&lt;/p&gt;
 
@@ -307,8 +307,8 @@
 
       <entry>
         <title>Illuminate.css</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/illuminate/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/illuminate/" />
+        <id>https://yellowdi.github.io//work/illuminate/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io//work/illuminate/" />
         <published>2016-11-09T00:00:00+08:00</published>
 
         
@@ -321,7 +321,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io//">
           
             &lt;p&gt;A tiny modern CSS reset that covers the basics:&lt;/p&gt;
 
@@ -359,8 +359,8 @@
 
       <entry>
         <title>Seattle</title>
-        <id>https://yellowdi.github.io/https://yellowdi.github.io/work/seattle/</id>
-        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/https://yellowdi.github.io/work/seattle/" />
+        <id>https://yellowdi.github.io//work/seattle/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io//work/seattle/" />
         <published>2015-08-24T00:00:00+08:00</published>
 
         
@@ -373,7 +373,7 @@
           <email>yellowdi@me.com</email>
         </author>
 
-        <content type="html" xml:base="https://yellowdi.github.io/https://yellowdi.github.io/">
+        <content type="html" xml:base="https://yellowdi.github.io//">
           
             &lt;p&gt;&lt;img src=&quot;http://7xp63o.com1.z0.glb.clouddn.com/Seattle.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
