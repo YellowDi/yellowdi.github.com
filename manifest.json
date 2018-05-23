@@ -1,13 +1,13 @@
 {
   "name": "YellowDi",
   "short_name": "YellowDi",
-  "start_url": "/http://yellowdi.github.io/",
+  "start_url": "/https://yellowdi.github.io/",
   "display": "standalone",
   "theme_color": "#fddf7c",
   "background_color": "#fff",
   "icons": [
     {
-      "src": "/http://yellowdi.github.io/favicon.png",
+      "src": "/https://yellowdi.github.io/favicon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
