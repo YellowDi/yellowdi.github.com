@@ -137,7 +137,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YellowDi</title>
   <subtitle>I make things that don’t suck.</subtitle>
-  <updated>2018-05-23T14:18:31+08:00</updated>
+  <updated>2018-06-02T14:33:21+08:00</updated>
   <id>https://yellowdi.github.io/</id>
   <generator uri="https://sparanoid.com/lab/amsf/" version="24.2.4">Almace Scaffolding</generator>
 
@@ -150,6 +150,43 @@
     <email>yellowdi@me.com</email>
   </author>
 
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Oops</title>
+        <id>https://yellowdi.github.io/articles/180527/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/180527/" />
+        <published>2018-05-27T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-28T09:28:54+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary></summary>
+        
+      </entry>
+    
   
     
       
@@ -503,6 +540,55 @@
       
 
       <entry>
+        <title>跨年</title>
+        <id>https://yellowdi.github.io/articles/about-life/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/about-life/" />
+        <published>2016-01-03T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T15:41:13+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;h3 id=&quot;礼拜二&quot;&gt;礼拜二&lt;/h3&gt;
+&lt;p&gt;这是老罗水平最次的一次相声，但却是锤子最好的一次发布会。我指的是那个「远程协助」，虽然我清晰的记得这并不是锤子首创的功能，但那段「演」出来的 Demo 确实打动到了我，于是我买了台 iPhone 6s 当做新年新气象……&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜三&quot;&gt;礼拜三&lt;/h3&gt;
+&lt;p&gt;后台开发进度已经很高了，第一次用 Angular 做开发讲道理的话我是非常没底的，实际过程中也确实有很多坑，我一直认为如果连 Google 都不用 Angular 做开发的话，那这门语言的未来真的很迷茫。要知道 Facebook 可是把身家性命都压在 React 上的了。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜五&quot;&gt;礼拜五&lt;/h3&gt;
+&lt;p&gt;元旦我和马老师、云麻豆主程们一起去文化广场跨年，是的，四个男人去文化广场跨年……
+人是确实多，我们转了一圈，才决定只有肯德基是我们吃上饭的希望，于是排了大概一个小时才买到，但找不到位置的我们只能在隔壁广场的应急楼道里解决……
+[img]&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜天&quot;&gt;礼拜天&lt;/h3&gt;
+&lt;p&gt;不得不说今年冬天真是虚的不行，我一件短袖套一件棒球服就能骑着电动车去翠柏二里找老弟吃夜宵，往年至少棉毛衫棉毛裤再加一条围巾才敢出门的。之前看到北极温度都在零上了，感觉地球药丸的样子，非常的令人不安。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>礼拜二这是老罗水平最次的一次相声，但却是锤子最好的一次发布会。我指的是那个「远程协助」，虽然我清晰的记得这并不是锤子首创的功能，但那段「演」出来的 Demo 确实打动到了我，于是我买了台 iPhone 6s 当做新年新气象……</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>Seattle</title>
         <id>https://yellowdi.github.io/work/seattle/</id>
         <link rel="alternate" type="text/html" href="https://yellowdi.github.io/work/seattle/" />
@@ -534,6 +620,386 @@
 
         
           <summary></summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>OS X 中 更新 Eclipse Luna 后无法启动</title>
+        <id>https://yellowdi.github.io/articles/Eclipse-Luna/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/Eclipse-Luna/" />
+        <published>2014-07-05T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:37:19+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;今天我更新 Eclipse 后发现无法启动，提示需要 jvm 1.6 才能运行，点击确定后自动安装了 jvm1.6&lt;/p&gt;
+
+&lt;p&gt;再次双击 Eclipse 依然报错，不过这次是「Version 1.6.0_65 of the JVM is not suitable for this product.」&lt;/p&gt;
+
+&lt;p&gt;这就是个坑&lt;/p&gt;
+
+&lt;p&gt;你说要 1.6 我照你做安装了 1.6，还是你帮我自动装的，装完你告诉我不行……&lt;/p&gt;
+
+&lt;p&gt;报错信息还有下半部分「Version: 1.7 or greater is required.」&lt;/p&gt;
+
+&lt;p&gt;好吧，那我去下载1.7吧&lt;/p&gt;
+
+&lt;p&gt;下载完 jre1.7，安装后在系统偏好设置里可以看到 jre 的版本号已经是 1.7 了，双击运行依然报错……&lt;/p&gt;
+
+&lt;p&gt;Google 了半天，中英文都试了，基本就没有成功案例&lt;/p&gt;
+
+&lt;p&gt;所以我只能碰运气了，于是下载了 jdk-7u60-macosx-x64，双击一试居然成了&lt;/p&gt;
+
+&lt;p&gt;突出一个神秘&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>今天我更新 Eclipse 后发现无法启动，提示需要 jvm 1.6 才能运行，点击确定后自动安装了 jvm1.6</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>如何解决Finder中「桌面」文件夹变英文「Desktop」</title>
+        <id>https://yellowdi.github.io/articles/fix-finder-desktop-name/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/fix-finder-desktop-name/" />
+        <published>2014-06-30T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:38:06+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;命令行内依次输入：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;touch ~/Desktop/.localized
+
+chmod 600 ~/Desktop/.localized
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>命令行内依次输入：</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>考驾照几点心得</title>
+        <id>https://yellowdi.github.io/articles/drivers-license/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/drivers-license/" />
+        <published>2014-05-30T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:33:51+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;昨天我终于拿到了驾驶证，从今年一月份开始，断断续续去驾校练车，前前后后大概花了七千块左右，除了驾校的学费和去考场的生活费，还有一些是打点给监考的。一开始我以为现在都是电脑监考了，这种东西完全没必要。可我科目二挂了之后就意识到这钱并不是走后门包通过，而是买了一份「保险」，毕竟有人在旁边指导会安心一点。我重考科目二的时候就有人在旁边指点，只要自己把车开的慢一点，听指令做动作，很难挂掉。到了科目三也一样，买了两包中华上车前礼貌的塞给考官什么的。要是没考官指点，我这忘打方向灯的习惯一起步就挂了。&lt;/p&gt;
+
+&lt;p&gt;当然，理论考试是只能靠自己的。我始终是以临时抱佛脚的状态去考试的，前一天才开始看题目。下一个 App 把题库每一道题做一遍，然后再模拟考几遍，最后把易错题做一遍。除了罚款金额、速度限制之类需要死记硬背的东西以外，其他题目只要看清题目就行。考试时间足够充裕，最好做到一个字一个字的看题目和答案，很多题目还是很搞脑子的，一不小心就看成了另外一种意思，所以要再三注意。&lt;/p&gt;
+
+&lt;p&gt;驾照这东西越早考出越好，毕竟大趋势就是门槛越来越高，考试项目越来越难，费用也越来越高，所以要尽快。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>昨天我终于拿到了驾驶证，从今年一月份开始，断断续续去驾校练车，前前后后大概花了七千块左右，除了驾校的学费和去考场的生活费，还有一些是打点给监考的。一开始我以为现在都是电脑监考了，这种东西完全没必要。可我科目二挂了之后就意识到这钱并不是走后门包通过，而是买了一份「保险」，毕竟有人在旁边指导会安心一点。我重考科目二的时候就有人在旁边指点，只要自己把车开的慢一点，听指令做动作，很难挂掉。到了科目三也一样，买了两包中华上车前礼貌的塞给考官什么的。要是没考官指点，我这忘打方向灯的习惯一起步就挂了。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Titanfall</title>
+        <id>https://yellowdi.github.io/articles/titanfall/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/titanfall/" />
+        <published>2014-05-20T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:29:24+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;找代购买了一份《Titanfall》，包含5月15日新发售的《远征》DLC。从游民下载了原包，这样就不用在Origin上浪费太多时间，直接覆盖等待游戏验证就行，当然游戏达到50GB的容量依然让我诧异。《Titanfall》是由创造了《使命召唤》系列的几位元老组建的「Respawn Entertainment」工作室的处女作。所以在血统上秉承了《使命召唤》爽快的联机体验。但同男友系列和贴图召唤不同，《Titanfall》的核心只有6v6的多人游戏，除了教程，其他所有游戏模式都需要同服务器内的玩家进行匹配以共同执行。通过战役模式能大概了解一点剧情，但也可以完全忽略，毕竟《Titanfall》是一款彻彻底底的网络游戏。&lt;/p&gt;
+
+&lt;p&gt;这也是我自发售至今才购买的原因，考虑到《模拟城市5》三秒一断线的糟糕体验，对于我这样一个大陆玩家对于多人联机总是抱着怀疑态度。好在《Titanfall》的「亚太」服务器在我这儿速度不算糟糕，玩了四个小时，失去连接三次，总体来讲还是比较理想的。&lt;/p&gt;
+
+&lt;p&gt;至于游戏实际玩起来感觉怎么样，我只想说像我这样被预告片或是演示视频吸引而来的新手玩家一开始第一次多人匹配会无所适从。《Titanfall》的游戏节奏非常快，我第一次进入地图就完全找不到北，跟着机器人AI到处撞，一眨眼功夫就被打死。看起来笨重的泰坦居然异常灵活，经常被尴尬的踩死……所以一开始我只能去打AI练感觉，这些呆萌的机器人基本就是用来刷分的，一分一个。一旦习惯了游戏的节奏，掌握了武器的手感和几处交战热点，很快就能拿到第一个人头。在《Titanfall》中玩家可以利用机动装置飞檐走壁，也可以驾驶泰坦碾压对手，这感觉特别酷，特别是枪林弹雨中跑酷的感觉，近几年难有这样爽快的操作感了。&lt;/p&gt;
+
+&lt;p&gt;总的来说《Titanfall》是一款绝佳的游戏，多人联机速度也比较理想，欢迎一起来玩。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>找代购买了一份《Titanfall》，包含5月15日新发售的《远征》DLC。从游民下载了原包，这样就不用在Origin上浪费太多时间，直接覆盖等待游戏验证就行，当然游戏达到50GB的容量依然让我诧异。《Titanfall》是由创造了《使命召唤》系列的几位元老组建的「Respawn Entertainment」工作室的处女作。所以在血统上秉承了《使命召唤》爽快的联机体验。但同男友系列和贴图召唤不同，《Titanfall》的核心只有6v6的多人游戏，除了教程，其他所有游戏模式都需要同服务器内的玩家进行匹配以共同执行。通过战役模式能大概了解一点剧情，但也可以完全忽略，毕竟《Titanfall》是一款彻彻底底的网络游戏。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>解决 iMac 摄像头无法连接的方法</title>
+        <id>https://yellowdi.github.io/articles/fix-imac-camera/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/fix-imac-camera/" />
+        <published>2014-05-10T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:27:52+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;iMac 摄像头对于我来说一直没什么存在感，可今天难得想要打一通 FaceTime 却提示我相机无法连接，我这一身冷汗啊……&lt;/p&gt;
+
+&lt;p&gt;不过解决方法也很简单：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;关机;&lt;/li&gt;
+  &lt;li&gt;在确保未连接其他外接设备的情况下同事按住 Control + Option + Shift;&lt;/li&gt;
+  &lt;li&gt;然后按下电源键后立刻同时按住 Option + Command + P + R，此时手不要松，直到响了四声开机音乐后松手就可以进入正常的开机流程。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;完成以上操作后，摄像头就可以用了。&lt;/p&gt;
+
+&lt;p&gt;以上操作其实就是重置硬件，换成专业术语叫做重置系统管理控制器（SMC）。当按下电源键后，立刻同时按住 Option + Command + P + R 以重置 NVRAM。Mac 会将某些设置储存在特殊内存区域中，而且即使关机这些设置也不会丢失（除非存在电池问题）。 在基于 Intel 的 Mac 上，存储位置是称为 NVRAM 的内存。当 Mac 的风扇、电源指示灯、系统性能、视频出现某些异常时候，可以通过上述方法进行重置来解决。&lt;/p&gt;
+
+&lt;p&gt;存储在 NVRAM 中的信息包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;扬声器音量&lt;/li&gt;
+  &lt;li&gt;屏幕分辨率&lt;/li&gt;
+  &lt;li&gt;启动磁盘选择&lt;/li&gt;
+  &lt;li&gt;最近的内核崩溃信息（如果有的话&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>iMac 摄像头对于我来说一直没什么存在感，可今天难得想要打一通 FaceTime 却提示我相机无法连接，我这一身冷汗啊……</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>付出总是值得的</title>
+        <id>https://yellowdi.github.io/articles/car-test/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/car-test/" />
+        <published>2014-05-05T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:25:42+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;乡亲们，我科目二终于考过了&lt;/p&gt;
+
+&lt;p&gt;终于&lt;/p&gt;
+
+&lt;p&gt;这已经是我第二次来到堰山考科目二了&lt;/p&gt;
+
+&lt;p&gt;我还记得上次教练问我要不要交点钱让监考的人指点指点，我自以为水平还可以就没交钱，结果毫不意外的就我一人没过&lt;/p&gt;
+
+&lt;p&gt;为了省四百块钱结果重考报名要五百&lt;/p&gt;
+
+&lt;p&gt;所以这次我主动上交，还附带了两包烟&lt;/p&gt;
+
+&lt;p&gt;这钱并不强制，不交也完全可以靠自己成功通过考试&lt;/p&gt;
+
+&lt;p&gt;我想这钱只是一剂定心丸，有人在旁边告诉你往左来一点、方向打死之类的提示，心里不会那么紧张罢了&lt;/p&gt;
+
+&lt;p&gt;作为一个绝对垄断的地方，讨论油水和回扣是毫无意义的，无论你如何鄙视如何宣称这是助纣为虐的行为并不屑一顾，但最后还是会有一大部分人屈服于体制，并乖乖交钱&lt;/p&gt;
+
+&lt;p&gt;一个学员四百，稍微估计一下就能知道哪些监考人员一天能白白赚多少钱&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;陈老师科目三没通过，以至于我们俩又来到了同一个起跑线，真好&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>乡亲们，我科目二终于考过了</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>没有景甜，算什么大片</title>
+        <id>https://yellowdi.github.io/articles/transcendence/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/transcendence/" />
+        <published>2014-05-02T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:23:25+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;我总感觉德普是要和尼古拉斯凯奇争烂片之王才参演这样一部电影。首先《超验骇客》这译名是谁想出来的，一种让人觉得故意翻成烂片即视感以保护国产电影圈钱的感觉，看之前我的期望之高，好比当年的《洛杉矶之战》，万万没想到会是同一个结果。翻译标题的人，用心良苦了，向你致敬……&lt;/p&gt;
+
+&lt;p&gt;我猜测，沃利·菲斯特拿着这么一个超前而且特别容易吸引人得剧本可能乐坏了，一心想走向人生巅峰这事。结果用了很长的篇幅去铺垫故事中的各种概念，使得整个观影过程非常闷，非常。我都快哭了，什么玩意啊，我抱着看大片的心态来，买了从未有过的大桶爆米花结果你给我看这个？另外，你给我解释解释这有史以来最没存在感的3D啊，什么啊，特供中国的3D，坚决抵制圈钱行为！德普还是去拍《加勒比海盗》吧，求你了！&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>我总感觉德普是要和尼古拉斯凯奇争烂片之王才参演这样一部电影。首先《超验骇客》这译名是谁想出来的，一种让人觉得故意翻成烂片即视感以保护国产电影圈钱的感觉，看之前我的期望之高，好比当年的《洛杉矶之战》，万万没想到会是同一个结果。翻译标题的人，用心良苦了，向你致敬……</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>宿敌</title>
+        <id>https://yellowdi.github.io/articles/rivals/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/rivals/" />
+        <published>2014-05-01T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T13:16:24+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;最近把《极品飞车18：宿敌》的车手模式通关了，相当喜欢。作为一款自1995发布第一代，持续到今日已有十八代作品的系列游戏，《极品飞车》早已在玩家心中留下了不可替代的地位，很多人说极品飞车已经沦落为一款快餐游戏，一年一作快速迭代，越来越乏味。我看来这在所难免，毕竟作为一款已经出到十八代的游戏，创意疲软是必然而且可以理解的。而《宿敌》结合了《热力追踪》的警察对决赛手的快感和《最高通缉》的开放世界元素，同时因寒霜3引擎带来的逼真的画面，说是系列最强毫不夸张。&lt;/p&gt;
+
+&lt;p&gt;说起画面我印象最深的就是动态的天气和车玻璃上的水滴，前者带来宏观上的震撼，后者则是细节上的小趣味。《宿敌》设定在虚构的红景镇，这是一个同时拥有沙漠、农场、海边人行道和雪山小径等多种地形的地方。但唯独缺少城市，也算是一种遗憾吧。&lt;strong&gt;好怀念《最高通缉》中的下水道&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;另外不得不提，那从7代开始至今阔别11年终于重回《极品飞车》世界的法拉利也成了一大亮点，并且毫不意外的，F12成了综合素质最好的车。当然我最爱的911在《宿敌》中有一款非常符合我审美的镀膜方案，酷炫到爆。自己截图太麻烦，引用一下游民星空的&lt;a href=&quot;http://www.gamersky.com/showimage/id_gamersky_17.shtml?http://img1.gamersky.com/image2013/11/20131121tqy_2/gamersky_17origin_33_2013112117547CC.jpg&quot;&gt;图&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img1.gamersky.com/image2013/11/20131121tqy_2/gamersky_17origin_33_2013112117547CC.jpg&quot; alt=&quot;截图&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>最近把《极品飞车18：宿敌》的车手模式通关了，相当喜欢。作为一款自1995发布第一代，持续到今日已有十八代作品的系列游戏，《极品飞车》早已在玩家心中留下了不可替代的地位，很多人说极品飞车已经沦落为一款快餐游戏，一年一作快速迭代，越来越乏味。我看来这在所难免，毕竟作为一款已经出到十八代的游戏，创意疲软是必然而且可以理解的。而《宿敌》结合了《热力追踪》的警察对决赛手的快感和《最高通缉》的开放世界元素，同时因寒霜3引擎带来的逼真的画面，说是系列最强毫不夸张。</summary>
         
       </entry>
     
@@ -632,6 +1098,276 @@
       
 
       <entry>
+        <title>踢他一下午球</title>
+        <id>https://yellowdi.github.io/articles/play-ball/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/play-ball/" />
+        <published>2013-04-22T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T10:13:24+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;这个礼拜六&lt;/p&gt;
+
+&lt;p&gt;我和连云港本地的业余足球队一起去体校踢了场友谊赛&lt;/p&gt;
+
+&lt;p&gt;听老大介绍，这次好像很正式的样子，有电子计分大屏幕和退休职业裁判&lt;/p&gt;
+
+&lt;p&gt;对手是一批不念书只踢球的壮汉&lt;/p&gt;
+
+&lt;p&gt;但战绩不怎样&lt;/p&gt;
+
+&lt;p&gt;所以找我们交流&lt;/p&gt;
+
+&lt;p&gt;老大还很不要脸地说「失败是最好的老师」&lt;/p&gt;
+
+&lt;p&gt;说得我们这群网友队好像主场在伯纳乌似的&lt;/p&gt;
+
+&lt;p&gt;不过踢踢这群洗剪吹我们还是很有信心的&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;老大还透露会有一大波卫校女生回来为他们男朋友助威&lt;/p&gt;
+
+&lt;p&gt;这事我最喜欢了！&lt;/p&gt;
+
+&lt;p&gt;想想，一个外地帅中锋，犀利的边路前叉，一个销魂的射门以及洋溢宁波小黄鱼风范的庆祝动作&lt;/p&gt;
+
+&lt;p&gt;Tell me，这些护士小妹怎么会不欢呼雀跃不迷倒一片？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;不过我没多少本地朋友&lt;/p&gt;
+
+&lt;p&gt;单位里的人也不能来&lt;/p&gt;
+
+&lt;p&gt;要是场边有粉丝的话就更靠谱了&lt;/p&gt;
+
+&lt;p&gt;所以我打通了王编辑的电话，邀请她看我耍帅&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;王编辑：为什么要我来啊？&lt;/p&gt;
+
+&lt;p&gt;我羞涩道：王编辑在场边人家才有动力嘛〜&lt;/p&gt;
+
+&lt;p&gt;王编辑：去死！&lt;/p&gt;
+
+&lt;p&gt;我羞涩道：来嘛来嘛，踢完球请你吃饭&lt;/p&gt;
+
+&lt;p&gt;王编辑：！！！真的？&lt;/p&gt;
+
+&lt;p&gt;我：废话，请你吃海鲜&lt;/p&gt;
+
+&lt;p&gt;王编辑被点燃了：好！我带上我几个姐妹一起来&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;挂了电话我拨通山下周记烧烤的电话，提前预订了点鱿鱼&lt;/p&gt;
+
+&lt;p&gt;有鱿鱼大概就是海鲜了吧&lt;/p&gt;
+
+&lt;p&gt;确保排面，又定了点豆腐干和韭菜&lt;/p&gt;
+
+&lt;p&gt;这下档次就上得了台面了&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>这个礼拜六</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>就这样爬了花果山</title>
+        <id>https://yellowdi.github.io/articles/huaguoshan/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/huaguoshan/" />
+        <published>2013-04-14T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T10:16:45+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;老弟要清明节上山带着悲壮的感情来看我。
+就像被打了一针兴奋剂，从心里喷出好多源头不明的快乐。
+刚好也发了工资，出手阔绰的很，作为较为成熟的人对待小孩子就要拿出大人的模样。&lt;/p&gt;
+
+&lt;p&gt;下午六点的车，我在五点就在汽车站蹭Wi-Fi，电池和时间呼啦呼啦掉得飞快。
+墙角站了四十分钟的我才发现售票大厅其实是有座椅的。
+啊！被自己蠢哭了。&lt;/p&gt;
+
+&lt;p&gt;一屁股坐下去，想放屁。
+但旁边坐了个穿毛衫听陈绮贞的文艺青年和长的英俊非常的空军中尉，不能给宁波人丢脸，憋着。&lt;/p&gt;
+
+&lt;p&gt;这时老弟到了，我高兴得憋不住放了个没声的，顺势跑出大厅给他们一个帅气的背影，你们俩互相猜吧。&lt;/p&gt;
+
+&lt;p&gt;找了半天没有看到萎缩的身影，奇怪。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我：在哪呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;老弟：售票大厅。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我：屁，我刚出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;老弟：我就在门口。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;于是我很机智的明白了，他丫搞错车站了。
+连云港地方不大车站一堆多，北站南站东站，再建一个就可以胡了。&lt;/p&gt;
+
+&lt;p&gt;招手打的，司机一嘴连云港话，瞎逼逼和我说了一路。
+好不如和我起玩车牌二十四点呢。&lt;/p&gt;
+
+&lt;p&gt;费劲周折我先看到老弟，用上看谍影重重学会的间谍手艺，用面包车掩盖自己魁梧的身躯顺利绕道老弟身后一个漂亮的千年杀。
+然后我就傻眼了。
+一样的衣服啊！
+情侣装啊！
+太基了！&lt;/p&gt;
+
+&lt;p&gt;很不情愿和老弟一起坐上出租车带回家，我能察觉司机印在后视镜上羡慕又嫉妒的眼神。&lt;/p&gt;
+
+&lt;p&gt;老弟还没吃饭，我也是。
+搞错车站就别想进五星大饭店了，就地在山下找个馆子。&lt;/p&gt;
+
+&lt;p&gt;鸡公煲的老板在满城风雨中看到我这个忠实顾客，很客气在锅底放了好多鸡肉，我很感动。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://b272.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/7XTgVzvW1JIbvCHTTM8gTwVU0i3cbUUVV53UPkiEoAY!/b/dKy9LaJzCQAA&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;su=0202307073&amp;amp;rf=2-9&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;第二天，我么吧慕名去了花果山。&lt;/p&gt;
+
+&lt;p&gt;天热得很，真希望时时刻刻在脑后绑一个鼓风机呼啦呼啦吹一路。&lt;/p&gt;
+
+&lt;p&gt;我和老弟带着抄家的架势坐上山下老伯的小三轮，一路很拉风。&lt;/p&gt;
+
+&lt;p&gt;毫不意外的人山人海，各种旅行团落单导游吆喝着「要导游吗？要导游吗？」&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://b270.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/SIzhtQV0n2h4AWv*FXMWACM7XU51WTt1U35B.KHIMiU!/b/dOhY86DyCQAA&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;su=0129827777&amp;amp;rf=2-9&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;花果山果然是大风景区，从门口就开始招呼你坐车上山吧。
+我很不屑，爬山坐车都是龟儿子。
+景区规划那时绝对考虑到我这种人，故意把台阶造得很陡，步步艰辛。
+要不是前面妹子裙子穿的短的话我都不知道怎么坚持到底了。
+每到一个平缓的地方，就会出现一个车站，意思是说再给你一次考虑的机会。
+我不！&lt;/p&gt;
+
+&lt;p&gt;走了好久我们发现了一只猴子。
+坐在台阶上一棵歪脖子树上，吃着梨撒着尿。
+正下方一妹子还很高兴的惊呼，咦，怎么下雨了。
+你妹啊……&lt;/p&gt;
+
+&lt;p&gt;花果山除了猴子因该还有水帘洞。
+于是我们看到了一面石壁，上面刻着「高山流水」
+一排水龙头制造出若不经风的瀑布，一群傻逼争先恐后往一个小窟窿钻，顿时感觉这一百元的票买的真不值。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://b273.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/XaUyIAtP8BB8QqICY87B2i9iLWpwG4OEqE9gx*GhBTg!/b/dNMpwKJ1CQAA&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;su=091381985&amp;amp;rf=2-9&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;走啊走，爬啊爬
+除了一些莫名奇妙的寺庙和水泥塔，沿途的风景还是不错的
+我和老弟一路宁波话说得甚爽，当着面骂别人都没事&lt;/p&gt;
+
+&lt;p&gt;快到饭点，我们总算到了传说中江苏最高峰：欲女峰
+对不起，浴女峰
+艾玛，是玉女峰
+高一点果然就是霸气，人比那个地方都多
+有人嗑瓜子
+有人扣脚丫
+有个妈妈抱着孩子在悬崖拉屎
+我差点没忍住一脚踹过去&lt;/p&gt;
+
+&lt;p&gt;挑了个好地方是时候试试新手机的全景功能了
+就在那熊孩子拉屎的地方……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://b273.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/bUmOD8zRUDDz0Z.m*dCMamb9KFbCsRhBqal2WHaINgc!/b/dJuzxKIpCQAA&amp;amp;bo=7A0gAwAAAAABAOU!&amp;amp;su=0123010945&amp;amp;rf=2-9&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;被人挤得差不多，我们打算坐缆车下山吃饭
+缆车站上的大喇叭一直逼逼叫我们这缆车多厉害多重要
+我记得以前扫墓时停车场那边也有这样的喇叭，文明扫墓，小心火烛&lt;/p&gt;
+
+&lt;p&gt;不得不说，坐在上面看下面还在累死累活往上爬的人特有优越感
+花七十块就能有这种所向披靡的腾讯人生VIP体验，值&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://b271.photo.store.qq.com/psb?/baf23fcf-44c6-45f3-8421-3727345f9986/A0DLw2PZM8zF3JaZmJmoJowsvYDbVCM19NI1KcCQjwc!/b/dOOdlqFLCQAA&amp;amp;bo=WAIgAwAAAAABAF4!&amp;amp;su=0217142945&amp;amp;rf=2-9&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;缆车的终点不是大门
+景区当然打算赚最后一笔钱
+留半个小时的山路给身心疲惫的游人
+要不坐车吧
+我不！&lt;/p&gt;
+
+&lt;p&gt;一路上有好多私家车可以潇洒得按着喇叭带着大胸妹子一路上山
+羡慕得很
+快到大门看到一车被拦下来
+好样的！&lt;/p&gt;
+
+&lt;p&gt;保安：停？我们不让上去的
+富二代：我和王总打过电话的
+保安：请&lt;/p&gt;
+
+&lt;p&gt;这孙子&lt;/p&gt;
+
+&lt;p&gt;出了门忽然看到一宁波车牌，兴奋极了
+心想宁波人都是很优秀的，载老乡是义不容辞的
+我和老弟靠近一点&lt;/p&gt;
+
+&lt;p&gt;我吼道「吃了伐？」
+弟吼道「啊灭」
+我吼道「噶杂浓浓」
+弟吼道「随闹好嘞」&lt;/p&gt;
+
+&lt;p&gt;车一脚油门就窜走了
+娘西撇！&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>老弟要清明节上山带着悲壮的感情来看我。就像被打了一针兴奋剂，从心里喷出好多源头不明的快乐。刚好也发了工资，出手阔绰的很，作为较为成熟的人对待小孩子就要拿出大人的模样。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>恋爱中男生最幸福的时刻是什么时候？</title>
         <id>https://yellowdi.github.io/articles/what-time-is-the-love-of-boys-is-the-happiest-moment/</id>
         <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/what-time-is-the-love-of-boys-is-the-happiest-moment/" />
@@ -665,6 +1401,56 @@
 
         
           <summary>今天在知乎看到一个问题「恋爱中男生最幸福的时刻是什么时候？」</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>删是删不掉的</title>
+        <id>https://yellowdi.github.io/articles/delete-is-not-deleted/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/delete-is-not-deleted/" />
+        <published>2013-01-04T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:36:32+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;h3 id=&quot;礼拜一&quot;&gt;礼拜一&lt;/h3&gt;
+&lt;p&gt;我一点都不期待在这里的任何会餐，因为作为级别最低最容易使唤的存在，我和巫豪要从中午就在厨房忙下忙下弄出两大桌菜来，他们一屁股坐下还指指点点，我已经习以为常了。其实我最不期待会餐的原因是要去敬酒，大大小小阿猫阿狗都要去敬酒，啤酒黄酒白酒轮着喝，肚子涨脑袋疼还必须一个不拉下，等我晕晕乎乎意识到自己还没吃饭时，那盘子已经空了。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜二&quot;&gt;礼拜二&lt;/h3&gt;
+&lt;p&gt;老弟拍了张家里聚餐桌子上的菜，现在我有点讨厌高像素摄像机，那种清晰的质感仿佛我自己所见一样，但是没有，没有啊，我在网吧吃炒面啊，难吃的炒面啊，望梅止渴却更渴的赶脚啊。发誓十二月回来我定要把宁波菜吃个三天三夜，三天三夜啊。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜三&quot;&gt;礼拜三&lt;/h3&gt;
+&lt;p&gt;才学会打乒乓的我在球桌上击败了「师傅」巫豪，其实很多事情无所谓你什么时候开始或是有多少经验，天赋更重要。（脸是什么东西&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜四&quot;&gt;礼拜四&lt;/h3&gt;
+&lt;p&gt;南方周末的原版新年贺词是这样的「经历过宪政缺失的文革梦魇，我们花费三十多年的时间来逐渐回归常理与常情。从土地联产承包责任制到个体户、乡镇企业到民企，稍稍归还国人自主安排生活的权利，我们便创造了繁华城市，收获了满仓粮食。」戴志勇写得甚好却被官方更换了，我的意思是有些话你可以删掉，但有些态度是你怎么删都删不掉的。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜五&quot;&gt;礼拜五&lt;/h3&gt;
+&lt;p&gt;上午在单位门口的鱼塘里溜冰，其实我根本算不上是在溜，只不过是打滑得比较好看而已，别人不知道，惊叹道穿着拖鞋都能滑冰，其实我都吓得淌汗了。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>礼拜一我一点都不期待在这里的任何会餐，因为作为级别最低最容易使唤的存在，我和巫豪要从中午就在厨房忙下忙下弄出两大桌菜来，他们一屁股坐下还指指点点，我已经习以为常了。其实我最不期待会餐的原因是要去敬酒，大大小小阿猫阿狗都要去敬酒，啤酒黄酒白酒轮着喝，肚子涨脑袋疼还必须一个不拉下，等我晕晕乎乎意识到自己还没吃饭时，那盘子已经空了。</summary>
         
       </entry>
     
@@ -734,6 +1520,592 @@
       
 
       <entry>
+        <title>爱过</title>
+        <id>https://yellowdi.github.io/articles/wangluodan/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/wangluodan/" />
+        <published>2012-12-28T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:32:38+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;h3 id=&quot;礼拜一&quot;&gt;礼拜一&lt;/h3&gt;
+&lt;p&gt;躲过世界末日的地球毫发无损，躲不过礼拜一的人类遍体鳞伤。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜二&quot;&gt;礼拜二&lt;/h3&gt;
+&lt;p&gt;今天做饭时灵感乍现，一个Mac软件。把电影里的对话裁剪成一个个单词长度，用户自定义140字符的短句然后软件生成出视频，很有趣。一回来就花了张界面设计草稿和程序流程，还有点问题需要咨询和解决，我日后详谈。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://of6e3x1ve.qnssl.com/psb-1.jpg&quot; alt=&quot;idea&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜三&quot;&gt;礼拜三&lt;/h3&gt;
+&lt;p&gt;自认为扫雪这事就像亲热时放屁一样伤情调。&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜四&quot;&gt;礼拜四&lt;/h3&gt;
+&lt;p&gt;下单位大门口两阶楼梯我就摔了一跤啊，是冰啊卧槽，伤了会踢香蕉任意球的右脚啊，50/50的几率啊，我说话很少打两个感叹号的，完全不能动了啊！！了啊！！&lt;/p&gt;
+
+&lt;h3 id=&quot;礼拜五&quot;&gt;礼拜五&lt;/h3&gt;
+&lt;p&gt;今天看到王珞丹的膝盖照片，这根本不是误会。每一个让妹纸膝盖红肿的混蛋都是自私鬼，换个体位会死啊！&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>礼拜一躲过世界末日的地球毫发无损，躲不过礼拜一的人类遍体鳞伤。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>雪</title>
+        <id>https://yellowdi.github.io/articles/snow/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/snow/" />
+        <published>2012-12-26T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:29:58+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;又是微博上说造成中华民族不团结的主要原因是「北方的暖气」和「江浙沪包邮」。&lt;/p&gt;
+
+&lt;p&gt;我觉得深有道理。&lt;/p&gt;
+
+&lt;p&gt;但同时拥有暖气和包邮的徐州让我很是嫉妒。&lt;/p&gt;
+
+&lt;p&gt;连云港明明比徐州冷，却连个让我觉得温暖的东西都没有。&lt;/p&gt;
+
+&lt;p&gt;这几天咳嗽都快把肺吐出来了，这叫一个痛苦啊。&lt;/p&gt;
+
+&lt;p&gt;喝止咳糖浆就像喝水一样，一点用没有。&lt;/p&gt;
+
+&lt;p&gt;虚假广告害死人。&lt;/p&gt;
+
+&lt;p&gt;我和巫豪两张涂着大宝SOD蜜的脸在寒风中瑟瑟发抖。&lt;/p&gt;
+
+&lt;p&gt;今天还下雪了，真会乘人之危。&lt;/p&gt;
+
+&lt;p&gt;长这么大第一次见这么大的雪，还下个不停。&lt;/p&gt;
+
+&lt;p&gt;其他人都上机房取暖去了，我躺在电视前看篮球。&lt;/p&gt;
+
+&lt;p&gt;公牛和火箭的球员穿得像睡衣一样的东西，我足足笑了两节时间。&lt;/p&gt;
+
+&lt;p&gt;笑久了，身体也热了。&lt;/p&gt;
+
+&lt;p&gt;这里有很多新年贺卡，我问了好多人的地址，改天统统寄出去，反正不要钱。&lt;/p&gt;
+
+&lt;p&gt;表一表存在感。&lt;/p&gt;
+
+&lt;p&gt;天冷了，不要忘了给你加衣服的人，多穿一点总是好的。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>又是微博上说造成中华民族不团结的主要原因是「北方的暖气」和「江浙沪包邮」。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>2012年度阿迪牌电影排行榜</title>
+        <id>https://yellowdi.github.io/articles/top-ten/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/top-ten/" />
+        <published>2012-12-25T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:29:15+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;2012年度阿迪牌十佳好电影：&lt;/p&gt;
+
+&lt;p&gt;1、「逃离德黑兰」&lt;/p&gt;
+
+&lt;p&gt;2、「复仇者联盟」&lt;/p&gt;
+
+&lt;p&gt;3、「黑暗骑士崛起」&lt;/p&gt;
+
+&lt;p&gt;4、「恋恋书中人」&lt;/p&gt;
+
+&lt;p&gt;5、「天幕危机」&lt;/p&gt;
+
+&lt;p&gt;6、「轻音少女剧场版」&lt;/p&gt;
+
+&lt;p&gt;7、「爱」&lt;/p&gt;
+
+&lt;p&gt;8、「科学怪狗」&lt;/p&gt;
+
+&lt;p&gt;9、「马达加斯加3」&lt;/p&gt;
+
+&lt;p&gt;10、「独裁者」&lt;/p&gt;
+
+&lt;p&gt;2012年度阿迪牌十佳烂电影:&lt;/p&gt;
+
+&lt;p&gt;1、「普罗米修斯」&lt;/p&gt;
+
+&lt;p&gt;2、「谍影重重4」&lt;/p&gt;
+
+&lt;p&gt;3、「名侦探柯南：第十一个前锋」&lt;/p&gt;
+
+&lt;p&gt;4、「环形使者」&lt;/p&gt;
+
+&lt;p&gt;5、「生化危机5」&lt;/p&gt;
+
+&lt;p&gt;6、「冰河世纪4」&lt;/p&gt;
+
+&lt;p&gt;7、「白鹿原」&lt;/p&gt;
+
+&lt;p&gt;8、「全面回忆」&lt;/p&gt;
+
+&lt;p&gt;9、「神奇蜘蛛侠」&lt;/p&gt;
+
+&lt;p&gt;10、「大侦探福尔摩斯2」&lt;/p&gt;
+
+&lt;p&gt;2012年度阿迪牌最佳单项电影:&lt;/p&gt;
+
+&lt;p&gt;最佳电影「逃离德黑兰」&lt;/p&gt;
+
+&lt;p&gt;最佳剧本「恋恋书中人」&lt;/p&gt;
+
+&lt;p&gt;最佳导演「逃离德黑兰」&lt;/p&gt;
+
+&lt;p&gt;最佳剪辑「黑暗骑士崛起」&lt;/p&gt;
+
+&lt;p&gt;最佳摄影「天幕危机」&lt;/p&gt;
+
+&lt;p&gt;最佳配乐「黑暗骑士崛起」&lt;/p&gt;
+
+&lt;p&gt;最佳视觉效果「复仇者联盟」&lt;/p&gt;
+
+&lt;p&gt;最佳动画「马达加斯加3」&lt;/p&gt;
+
+&lt;p&gt;以上只是我这一年来对所看电影的一个总体评价。萝卜青菜各有所爱，有些电影我很喜欢有些电影让我竖着中指，这些评价只是站在我的角度用我的视角和我的价值观去看电影后所产生的感受。跌宕起伏的2012年就要过去了，我很怀念它。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>2012年度阿迪牌十佳好电影：</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>末日</title>
+        <id>https://yellowdi.github.io/articles/end/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/end/" />
+        <published>2012-12-20T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:28:22+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;我的人生时间轴上出现过两次世界末日，上一个是千禧年&lt;/p&gt;
+
+&lt;p&gt;那时我还在玩泥巴，就算停滞在那一刻，我还是快乐的&lt;/p&gt;
+
+&lt;p&gt;可是上帝和菩萨放了地球人一个鸽子。&lt;/p&gt;
+
+&lt;p&gt;这回是玛雅人预言的&lt;/p&gt;
+
+&lt;p&gt;按照电影的剧情来说应该是美国时间十二月二十一号，也就是后天&lt;/p&gt;
+
+&lt;p&gt;正好英语考六级&lt;/p&gt;
+
+&lt;p&gt;真会挑日子&lt;/p&gt;
+
+&lt;p&gt;电影上说那天黄石国家公园的超级火山会突然爆发，引起连锁反应摧毁我的家和我用乐高积木堆的家&lt;/p&gt;
+
+&lt;p&gt;两个家都会被摧毁&lt;/p&gt;
+
+&lt;p&gt;这对我打击颇大&lt;/p&gt;
+
+&lt;p&gt;我很担忧&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;「你信不信世界末日？」&lt;/p&gt;
+
+&lt;p&gt;这是我继「你觉得中医靠谱吗？」后择友的新标准&lt;/p&gt;
+
+&lt;p&gt;你问我信不信世界末日？&lt;/p&gt;
+
+&lt;p&gt;我一开始是不相信的，那时天空晴朗前途大好，为什么担忧这个&lt;/p&gt;
+
+&lt;p&gt;后来中国的科学家辟谣后，我信了&lt;/p&gt;
+
+&lt;p&gt;还有那个我一直很迷信的 NASA 在太空前些天认错了珠穆朗玛峰&lt;/p&gt;
+
+&lt;p&gt;我算是彻底相信了&lt;/p&gt;
+
+&lt;p&gt;这个地球连个权威的否认都没有，这太令人忧伤了&lt;/p&gt;
+
+&lt;p&gt;你说是信还是不信？&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;其实这是最适合赌博的事情了&lt;/p&gt;
+
+&lt;p&gt;你看，赌有，你赢就能赢一辈子，输了还能被窝里偷着乐&lt;/p&gt;
+
+&lt;p&gt;这种千年难遇的事儿，干嘛不参一脚？&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;前些天流行给中意的姑娘发短信表白&lt;/p&gt;
+
+&lt;p&gt;我积极参与&lt;/p&gt;
+
+&lt;p&gt;淌着汗拟了一条&lt;/p&gt;
+
+&lt;p&gt;看得我自己都面红耳赤&lt;/p&gt;
+
+&lt;p&gt;你这辈子都看不到这么情感真挚的短信了&lt;/p&gt;
+
+&lt;p&gt;在微博上求声援一个上午，虽鼓足勇气却还是不敢发&lt;/p&gt;
+
+&lt;p&gt;一种与生俱来的自卑感&lt;/p&gt;
+
+&lt;p&gt;我在房间里转了一圈又一圈&lt;/p&gt;
+
+&lt;p&gt;反复念她的名字&lt;/p&gt;
+
+&lt;p&gt;被自己蠢哭了&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;今天全世界都在想一个问题&lt;/p&gt;
+
+&lt;p&gt;「我还有什么遗憾？」&lt;/p&gt;
+
+&lt;p&gt;这要是问我，我怕还说不完&lt;/p&gt;
+
+&lt;p&gt;太多了！&lt;/p&gt;
+
+&lt;p&gt;像我这样生活麻木遗憾颇多的人，是不应该被末日的&lt;/p&gt;
+
+&lt;p&gt;生着都这么可怜，你说好意思嘛？&lt;/p&gt;
+
+&lt;p&gt;EVA Q还没看过就被末日了，你说好意思嘛？&lt;/p&gt;
+
+&lt;p&gt;购物车还没结账就被末日了，你说好意思嘛？&lt;/p&gt;
+
+&lt;p&gt;没带着六块腹肌就被末日了，你说好意思嘛？&lt;/p&gt;
+
+&lt;p&gt;今天刷微博看人人，痛苦发现，一个好端端的世界末日被各地情侣装扮成了开房日&lt;/p&gt;
+
+&lt;p&gt;宾馆人满为患床铺紧张&lt;/p&gt;
+
+&lt;p&gt;正好听到陈医生的一首歌，「孤独的恋人最怕过节」&lt;/p&gt;
+
+&lt;p&gt;世界末日啊&lt;/p&gt;
+
+&lt;p&gt;死不瞑目啊！&lt;/p&gt;
+
+&lt;p&gt;去他妈的阿尔戈啊！&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>我的人生时间轴上出现过两次世界末日，上一个是千禧年</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>奶奶的个腿，奶奶的个腿</title>
+        <id>https://yellowdi.github.io/articles/fml/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/fml/" />
+        <published>2012-12-18T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:27:39+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;昨天晚上开始我又要去机房上班了，几个月没在那儿一呆呆六个小时，原来死去活来背下来的东西现在统统还给领班员，我就在那儿傻坐着，这不是个好事。昨晚里面那台看电影的高配电脑坏掉，我捣鼓了几个小时，显卡驱动和网卡驱动就是不给面子，一点反应没有，所幸声卡还是很有脸色，一装就见效，不至于一事无成。&lt;/p&gt;
+
+&lt;p&gt;据我观察机房的温度计一直浮动在二十六度以上三十二度以下，这就是说我每次进出就等于跨越地球二十五个纬度的温差，刺激很大。在里面这么多光端机和服务器的威力还是很大的，一阵阵热浪，要是面前摆张海滩照片，这就是在里约热内卢。只要动作一大保准淌汗不止，所以我做什么都慢吞吞的，要是大汗淋漓湿嗒嗒的出去可能就结冰了。&lt;/p&gt;
+
+&lt;p&gt;我现在这个班组是临时添的，三个人，两个都是资历很高的班长，就我是两年的。一个班长是业务骨干同时也是给我发工资的人，另一个是新调过来的司机，从来没接触过这种东西，玩扫雷都还要我教他。我因为还要担任文书所以一有事就要下去，要报个什么东西我要下去；有任务有活干我要下去，招待所水壶没水了我要下去，头头上厕所没带纸我也要下去，所以我就是不停的下去上来下去上来，和电梯一个样，奶奶的个腿，奶奶的个腿。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>昨天晚上开始我又要去机房上班了，几个月没在那儿一呆呆六个小时，原来死去活来背下来的东西现在统统还给领班员，我就在那儿傻坐着，这不是个好事。昨晚里面那台看电影的高配电脑坏掉，我捣鼓了几个小时，显卡驱动和网卡驱动就是不给面子，一点反应没有，所幸声卡还是很有脸色，一装就见效，不至于一事无成。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>烟</title>
+        <id>https://yellowdi.github.io/articles/smoke/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/smoke/" />
+        <published>2012-12-14T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-24T13:50:16+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;就在几分钟前我抽完了最后一根烟。没错，我抽烟。有抽过一段时间，大概是一个月。一开始来这里的时候他们问我抽不抽烟，我说不，他们就说好孩子，其实我心里一直都是这么想的，抽烟的不一定是坏人，不抽烟的不一定是好人，这话我当然不能说，不过我可能是个好人。&lt;/p&gt;
+
+&lt;p&gt;在开始抽烟的头几天，朋友问我为什么要抽烟，每个人都清楚这东西对身体健康的坏处，烟壳上黑体字又大又明显：「抽烟有害健康，尽早戒烟有利于健康」，但每个人都有自己的理由或是借口，有的是为了耍帅、有的是为了耍帅、有的是为了耍帅，还有的人是为了耍帅，我说我只是在探索。我爸和巫豪是我见过烟瘾最大的人类，一天一包，牙齿黑黑的。我还见过会抽烟的猴子，那哥们比巫豪厉害多了。我抽烟只是想知道抽烟是个什么感觉，戒烟是个什么感觉。这些感觉是遐想不出来的，你要自己去探索。于是我在小店买了一包，开始了口袋有烟的日子。朋友们都抽十块钱的黄金叶或是七块钱的七匹狼，我抽二十块钱的小苏，以表现我向组织看齐的诚意。&lt;/p&gt;
+
+&lt;p&gt;一开始没烟瘾，也没人告诉我什么时候要抽烟，我都是随大流，朋友一个个叼起来吞烟吐雾我也给自己点上一根，坐在他们旁边，模仿他们忧愁的眼神。一切来的很快，我有了自己的尼古丁生物钟，有时就想给自己点上一根，脑子里什么都不想，就是这样机械得抽着。头一包抽得我印象深刻，因为刚开始都会出现头晕呕吐四肢无力的情况，朋友很有经验的和我说。有人说，抽烟能解愁，我想说解你个蛋，这东西除了化学反应后到呼吸系统来个循环就没有其他作用了。我是有这样的忧愁的时候，以为一根烟能帮我想的开一点，几次尝试这理论真是狗屁，还不如去砸墙。&lt;/p&gt;
+
+&lt;p&gt;我外公，我奶奶还有我爸妈都告诉我不要抽烟，除了自己都没做到的老爸，其他长辈的话我还是很听的。所以我决定停止这个探索，因为我已经觉得抽烟百无一用，这个探索结果是我杀敌一百自伤八百的结果，很有牺牲自我的科学价值。这一个月来我毛估估抽了有一条不到的烟，算上自己买的和朋友发的，应该有这么多。会乘法的朋友可以算一下这一条烟的焦油量，还不够炸个荷包蛋。所以我陷得还不算太深，回头还能看到岸。戒烟的关键是控制来源，我是不会再花钱去买烟了，另外下次朋友给我发烟，我要说不。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>就在几分钟前我抽完了最后一根烟。没错，我抽烟。有抽过一段时间，大概是一个月。一开始来这里的时候他们问我抽不抽烟，我说不，他们就说好孩子，其实我心里一直都是这么想的，抽烟的不一定是坏人，不抽烟的不一定是好人，这话我当然不能说，不过我可能是个好人。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>走或留</title>
+        <id>https://yellowdi.github.io/articles/leave-or-stay/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/leave-or-stay/" />
+        <published>2012-11-06T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:26:05+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;大伙多少知道每年十一月对于我们单位意味着一个走或留的抓狂纠结的问题：是否退伍。那些每天还在纠结Q币的朋友可能不理解这有什么好挣扎的，我就建议你不要往下看了。&lt;/p&gt;
+
+&lt;p&gt;几天后我就来这里有一年整了，坐在又热又闷还脚气熏天的火车离开宁波仿佛还是昨天的事，真是一眨眼功夫。而对于那些在这里五年十年甚至更长的朋友来说，时间就是把杀猪刀。他们把青春的热血和激情撒在这里，每个人来这里都有自己的目的和梦想，至少都比我来的时候明确的多。&lt;/p&gt;
+
+&lt;p&gt;但我从他们故作镇定的脸上看到迷茫和恐惧的眼神。一个相对封闭的环境确实可以抹杀掉一些东西，比如他们至今还相信中医能治病、拔火罐有益健康、可乐会杀精、日本把中国的煤往海里填……这不能全然怪他们，这样的环境是你们无法想象的。坐在这样的大环境下对外面的世界憧憬又恐惧，长时间的隔离导致思想的脱节不是短时间能弥补的。所以对离开后自己的生活如何继续、寻找心仪的工作和爱情等都是棘手和茫然的。&lt;/p&gt;
+
+&lt;p&gt;但选择继续就在这里也算是一种逃避。逃避现实逃避社会的浪起云涌，这里的确是片甚好的避风港。什么不干什么不管的人每月拿千把块钱的人大有人在，家乡就业难的问题似乎和他们一点关系没有，就像拿了个铁饭碗，等吃就行。我鄙视这样的人。&lt;/p&gt;
+
+&lt;p&gt;走或留的选择一点不简单，它可能决定自己短暂的一生。不能像一条疯狗追汽车，追上了又不知道为什么追。我很喜欢韩寒的一句话分享给大家，「生活它不是攀爬高山，也不是深潜海沟，它只是在一张标配的床上睡出你的身形」。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>大伙多少知道每年十一月对于我们单位意味着一个走或留的抓狂纠结的问题：是否退伍。那些每天还在纠结Q币的朋友可能不理解这有什么好挣扎的，我就建议你不要往下看了。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>一无是处那就一无是处</title>
+        <id>https://yellowdi.github.io/articles/nothing-is-good/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/nothing-is-good/" />
+        <published>2012-10-21T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-24T11:37:13+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;今天晚上开了个会，我第一次参加。&lt;/p&gt;
+
+&lt;p&gt;刚洗完澡，头还是湿的。&lt;/p&gt;
+
+&lt;p&gt;他们说我衣冠不整，笑话道是不是被弓虽女干了，我无言以对。&lt;/p&gt;
+
+&lt;p&gt;接下来我就经历了人生最憋屈的三十分钟，我可以肯定。&lt;/p&gt;
+
+&lt;p&gt;——&lt;/p&gt;
+
+&lt;p&gt;我没有一天不淌汗，睁眼开始就是干活干活还是他妈的干活。&lt;/p&gt;
+
+&lt;p&gt;在这里的一帮兄弟他们也是这样的。&lt;/p&gt;
+
+&lt;p&gt;各位朋友可能见我天天发微博写影评好像很闲的样子。&lt;/p&gt;
+
+&lt;p&gt;你们看不到我其他的时间都在干什么。&lt;/p&gt;
+
+&lt;p&gt;——&lt;/p&gt;
+
+&lt;p&gt;单位里有一个大厕所，就是蹲着的那种。&lt;/p&gt;
+
+&lt;p&gt;他们一个个横行霸道弄得一塌糊涂，我没有语言可以形容。&lt;/p&gt;
+
+&lt;p&gt;我每天打扫一遍，半天就又脏了。&lt;/p&gt;
+
+&lt;p&gt;他们一点不知道爱惜居然还骂我打扫很不积极。&lt;/p&gt;
+
+&lt;p&gt;——&lt;/p&gt;
+
+&lt;p&gt;前些天我第一次杀鸡，天哪！杀鸡！&lt;/p&gt;
+
+&lt;p&gt;让我怎么下手呢，我问。&lt;/p&gt;
+
+&lt;p&gt;他怪我这个都不会。&lt;/p&gt;
+
+&lt;p&gt;把鸡一丢给我。&lt;/p&gt;
+
+&lt;p&gt;然后就没有然后了。&lt;/p&gt;
+
+&lt;p&gt;——&lt;/p&gt;
+
+&lt;p&gt;以上外加一堆事被他们说出来，最后总结：「一无是处」&lt;/p&gt;
+
+&lt;p&gt;我无所谓你们对我什么看法，因为我理解地域、习惯、家庭或是成长过程的不同而产生种种误解，我只是不知道会产生这样一种对我排它的看法。&lt;/p&gt;
+
+&lt;p&gt;这是我从未遇到过的纷争。&lt;/p&gt;
+
+&lt;p&gt;没有参考书可以告诉我该怎么办。&lt;/p&gt;
+
+&lt;p&gt;眼下，无视可能是我的选择。&lt;/p&gt;
+
+&lt;p&gt;身在异地，活在当下。&lt;/p&gt;
+
+&lt;p&gt;在自己的世界里度过剩下的时光。&lt;/p&gt;
+
+&lt;p&gt;我还是有不少好朋友，好兄弟和我同进退共甘苦。&lt;/p&gt;
+
+&lt;p&gt;他们的安慰和引导让我受益匪浅。&lt;/p&gt;
+
+&lt;p&gt;——&lt;/p&gt;
+
+&lt;p&gt;而他们，不会在我的记忆里存在太久，忍一忍就过去了。
+不是吗？&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>今天晚上开了个会，我第一次参加。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>我们各自努力，朝着不同的方向</title>
         <id>https://yellowdi.github.io/articles/different-life/</id>
         <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/different-life/" />
@@ -773,6 +2145,293 @@
 
         
           <summary>那是一个大年三十，风很冷。小阿姨工作的饭店里大多数职工都回家过年，没什么人，我和老弟就去端端菜收收钱之类的，没什么技术含量。即使过年饭店依旧要开着，要给那些懒得在家做团圆饭的人一张桌子和一些菜，让他们吃得开心。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>20</title>
+        <id>https://yellowdi.github.io/articles/20/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/20/" />
+        <published>2012-09-29T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:46:27+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;我满二十岁了，就在几个小时前&lt;/p&gt;
+
+&lt;p&gt;躺在床上胡思乱想，关于人生和未来，我发现自己淌汗了&lt;/p&gt;
+
+&lt;p&gt;二十岁，这是一个里程碑&lt;/p&gt;
+
+&lt;p&gt;未来遥远到让我感到恐惧&lt;/p&gt;
+
+&lt;p&gt;我自己对自己说道&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;第一次在宁波之外过生日&lt;/p&gt;
+
+&lt;p&gt;不出意外的话我还要在宁波之外过很多节日&lt;/p&gt;
+
+&lt;p&gt;这事并不让我感到忧伤&lt;/p&gt;
+
+&lt;p&gt;我很确定&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;手上捏着老妈亲手织得黑色毛衣我感觉到一股异常强大的温暖&lt;/p&gt;
+
+&lt;p&gt;手机滴滴答答收到各种虚拟的礼物和祝福的短讯我感觉从未如此好过&lt;/p&gt;
+
+&lt;p&gt;我的家人，我的朋友从没走远&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;20&lt;/p&gt;
+
+&lt;p&gt;我应该像阿黛尔一样出一张用自己年龄命名的专辑&lt;/p&gt;
+
+&lt;p&gt;我喜欢阿黛尔。她的歌声让我在黑暗中翻滚，我爱她&lt;/p&gt;
+
+&lt;p&gt;我曾经写过歌&lt;/p&gt;
+
+&lt;p&gt;有那么两首，是给我的初恋小女朋友的&lt;/p&gt;
+
+&lt;p&gt;你能想象一首毫无意义满是我爱你你爱我之类的无营养烂歌被我用公鸭子的嗓音在没有伴奏的情况下清唱出来是怎么的画面吗？&lt;/p&gt;
+
+&lt;p&gt;现在想想当然奇葩，但在当时可是极有气氛和腔调的事&lt;/p&gt;
+
+&lt;p&gt;然后，她给了我一个拥抱&lt;/p&gt;
+
+&lt;p&gt;其实也算是一个吻&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天我很累&lt;/p&gt;
+
+&lt;p&gt;为迎接我们头头的丈母娘而辛勤打扫因装修变得惨不忍睹的客房&lt;/p&gt;
+
+&lt;p&gt;滑稽的是我们头比谁都着急，格外着急&lt;/p&gt;
+
+&lt;p&gt;我见他都淌汗了&lt;/p&gt;
+
+&lt;p&gt;你说，十年后的我会不会也会为丈母娘要来而忙前忙后呢？&lt;/p&gt;
+
+&lt;p&gt;未来，我很期待&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>我满二十岁了，就在几个小时前</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>彗星</title>
+        <id>https://yellowdi.github.io/articles/comet/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/comet/" />
+        <published>2012-09-27T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T09:37:30+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;今天我很不愉快，甚至感觉异常憋屈。一个山东夸子（南京话）不知道是月经失调白带异常还是他妈出门被天上掉下来的驴踢了脑袋，把我当出气筒耍。我自然不理他无视他。见我如此镇定他居然用钥匙圈砸我。朋友，砂锅这么大的钥匙圈，上面最起码五十把钥匙啊！就这么砸过来，幸好眼疾手快没被爆头，不然我就成烈士上感动中国了。见没弄死我，那夸子耍了招阴的，差点没把我笑死。丫的把我的床铺啊，被子什么的全扔地上，估计还踩了几脚。WTF！你是孩子吗？这全然是我小学二年级借蜡笔不成才使出的手法啊，白痴！我真没想到一个二十五岁的男人竟然会使出这么奇葩这么娘的方法对付一个让他欲求不满的人，开眼界啊，朋友。&lt;/p&gt;
+
+&lt;p&gt;我不能让一个奇葩毁了我庆生的心情，一个二十岁或是更成熟的人该如何面对这样奇葩的人？十九岁的我给出了一个解决方案：无视。我很自豪在那个瞬间选择无视他的我。未来各种各样的人我对会遇到会有交集，但这样的奇葩遇到一个就够了，真的。&lt;/p&gt;
+
+&lt;p&gt;吃过晚饭在科学松鼠会看到一则天文新闻：「明年11月开始在后半夜东南方向的天空中徘徊的 ISON 彗星。当它11月29日从太阳附近经过时，亮度可达-14等左右——会比满月都要明亮，理论上白昼可见！」。11月29日！我兴奋得团团转。这正是我踏上回家列车告别连云港的日子，那个期待已久的日子。回家和彗星。这种巧合真是太假了！我怀疑自己是不是生活在楚门的世界，被导演安排了这可笑的生活？如果真是这样，那我自认为这样安排也挺好挺天才的。明年十一月底，是一个值得期待的日子！你抬头能看到彗星，低头会看到我。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>今天我很不愉快，甚至感觉异常憋屈。一个山东夸子（南京话）不知道是月经失调白带异常还是他妈出门被天上掉下来的驴踢了脑袋，把我当出气筒耍。我自然不理他无视他。见我如此镇定他居然用钥匙圈砸我。朋友，砂锅这么大的钥匙圈，上面最起码五十把钥匙啊！就这么砸过来，幸好眼疾手快没被爆头，不然我就成烈士上感动中国了。见没弄死我，那夸子耍了招阴的，差点没把我笑死。丫的把我的床铺啊，被子什么的全扔地上，估计还踩了几脚。WTF！你是孩子吗？这全然是我小学二年级借蜡笔不成才使出的手法啊，白痴！我真没想到一个二十五岁的男人竟然会使出这么奇葩这么娘的方法对付一个让他欲求不满的人，开眼界啊，朋友。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>感冒</title>
+        <id>https://yellowdi.github.io/articles/cold/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/cold/" />
+        <published>2012-09-19T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-24T11:34:28+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;为了追求统一着装所产生的那种难以理解的制式美感我们单位一直同南京那片儿保持一样的短袖着装，也就是说我要露大半条胳膊在十九摄氏度的烈烈寒风中清扫落叶归根的枯叶。所以我毫不意外的感了冒，而且病的不轻。&lt;/p&gt;
+
+&lt;p&gt;心情被一次次喷嚏打得乱糟糟的，最近夜班看得那些电影我都没心思一写点什么。还有那一篇删删改改试图追求完美的《黑暗骑士崛起》影评，最终还是被我打入「冷宫」。我不想用自己拙劣的文字去形容这么一部自认为神一样的电影，克里斯托弗·诺兰和汉斯·季末就是穿着西装的上帝。我敬仰上帝。&lt;/p&gt;
+
+&lt;p&gt;这样的气温可以在宁波当冬天的，我应该穿的足够多才对。该死的领导！昨晚躲在被窝里取暖时突然很想买件衣服过阵子可以下山玩时穿，于是在淘宝上买了一件巴黎铁塔图案的帽衫，除了帽衫我基本没有其他的选择。但是对于选一条裤子我没什么概念，我忘了自己过去穿得是什么或是自己想要什么，这让我挺失落的。大伙都是穿什么样的裤子呢？&lt;/p&gt;
+
+&lt;p&gt;感冒药是个好东西，既能治感冒又能治失眠。我把黑片白片倒着吃，因为我觉得晚上一个人戴着耳机才是属于自己的时光，不想让昏昏欲睡的自己扫兴。白天睡眼惺忪无所谓，反正我一直心不在焉的。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>为了追求统一着装所产生的那种难以理解的制式美感我们单位一直同南京那片儿保持一样的短袖着装，也就是说我要露大半条胳膊在十九摄氏度的烈烈寒风中清扫落叶归根的枯叶。所以我毫不意外的感了冒，而且病的不轻。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>我是个年轻人，我心情不太好</title>
+        <id>https://yellowdi.github.io/articles/i-was-a-young-man-i-feel-very-good/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/i-was-a-young-man-i-feel-very-good/" />
+        <published>2012-09-18T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-24T11:33:10+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;一年中的大多数日子不值得注意，一天开始又结束，之间不会留下太多回忆，大部分日子对人生没有影响。再过一个礼拜多几天我就满二十岁。这种感觉好奇怪，就像明天就要老几十岁或是皇马赢了巴萨一样。对我来说年岁的增长牵连着一种不安，似乎一切对我来说都毫无意义。我意识到不能再任由一切像从前一样发展下去。我躺着，我思考着。很快就开始琢磨我和我的二十岁以及弄巧成拙的生活。前些日子浑浑噩噩，以至于我百无聊赖。看看窗外的空气，是要冷静冷静。我总是责怪空间，但我的问题在于时间。&lt;/p&gt;
+
+&lt;p&gt;每天穿衣服的时候我感觉今天不用说我又要习以为常地虚度了。每天都应该是不同的，每个夜晚也是。我曾经是一个很有激情的人，我记忆里是这样没错。我有一次玩到晕过去。我当时刚得到我的滑板，玩得太投入以至于忘了吃饭。空着肚子滑了一整天，最后饿晕过去撞到了路灯上。老爸开车送我去的医院，医生说我得了脑震荡。但我是一个年轻人，我晕倒是因为当时耍得太带劲，根本没有时间停顿。这件事有极好的一面，这种激情，就是其中之一。&lt;/p&gt;
+
+&lt;p&gt;几天前我找到一本关于光网传输和电话程控的书。我翻了翻，然后就开始淌汗，不得不把书拿开，这个我承受不了。当下，这已经是我的极限。我在房间里转了一圈，心情无法平复。为了转移注意力，我开始翻看入伍前在宁波东站同送别的家人拍得一些照片。几乎每一张都有我憔悴和不安的脸，我一定从小就隐藏着一种自卑感。面对深奥的知识，胆怯只是暂时的，我心中想着。在学生时代里我一直「选修」语文和地理，其次就是英语和历史，基本就是老师们头疼的偏科问题生。初中那一会儿开始放弃数学物理和化学是因为不明白这些和我有什么关系，面对满黑板公式和解题过程我觉得好无聊，我宁可转身面对女同学们，用左手拇指和食指做个圈，然后用右手食指在圈里来回捅几下。我只做我有兴趣的事，什么都一样。&lt;/p&gt;
+
+&lt;p&gt;我的朋友不算多，有好的有坏的。不过我在朋友眼里多数就是功能性的存在，只有电脑坏了、网络断了之类的问题发生才会记起我这号人。这样也挺好，至少没有一无是处。我自认为会的也不少，我认识披头士和鲍勃·迪伦；我清楚《教父》说得是什么；我了解飞机靠什么原理飞起来……这点我很满意。&lt;/p&gt;
+
+&lt;p&gt;写了这么多，我感觉好多了。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>一年中的大多数日子不值得注意，一天开始又结束，之间不会留下太多回忆，大部分日子对人生没有影响。再过一个礼拜多几天我就满二十岁。这种感觉好奇怪，就像明天就要老几十岁或是皇马赢了巴萨一样。对我来说年岁的增长牵连着一种不安，似乎一切对我来说都毫无意义。我意识到不能再任由一切像从前一样发展下去。我躺着，我思考着。很快就开始琢磨我和我的二十岁以及弄巧成拙的生活。前些日子浑浑噩噩，以至于我百无聊赖。看看窗外的空气，是要冷静冷静。我总是责怪空间，但我的问题在于时间。</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>他们</title>
+        <id>https://yellowdi.github.io/articles/they/</id>
+        <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/they/" />
+        <published>2012-06-15T00:00:00+08:00</published>
+
+        
+          <updated>2018-05-25T10:18:50+08:00</updated>
+        
+
+        <author>
+          <name>YellowDi</name>
+          <uri>http://yellowdi.github.io/</uri>
+          <email>yellowdi@me.com</email>
+        </author>
+
+        <content type="html" xml:base="https://yellowdi.github.io/">
+          
+            &lt;p&gt;他们一夜酒肉留下满桌污秽不堪的垃圾，我们趴在地上去捡滚到桌下的龙虾壳；&lt;/p&gt;
+
+&lt;p&gt;他们抽烟喝酒留下满地香烟屁股和烟灰，我们扫得慢还站在一旁指指点点。&lt;/p&gt;
+
+&lt;p&gt;他们是一群混蛋！&lt;/p&gt;
+
+&lt;p&gt;他们随地吐痰却警告我们不要在寝室被看到有一张纸屑；&lt;/p&gt;
+
+&lt;p&gt;他们满嘴粗话却让我们说话都低声下气；&lt;/p&gt;
+
+&lt;p&gt;他们臭袜子一甩让我们洗却不让我们把一天干活脱下来的汗衫放在盆里明天洗；&lt;/p&gt;
+
+&lt;p&gt;他们需要我们端茶送水却从不关心我们寝室的风扇是否坏了。&lt;/p&gt;
+
+&lt;p&gt;他们是一群混蛋！&lt;/p&gt;
+
+&lt;p&gt;我们来这里是来当「黑奴」吗？难道我们不是一个有人格有自尊的人吗？&lt;/p&gt;
+
+&lt;p&gt;难道我们忙了一天不能累吗？&lt;/p&gt;
+
+&lt;p&gt;难道我们一定要早起一小时擦你床下的灰吗？&lt;/p&gt;
+
+&lt;p&gt;没错，他们是首长我们是手下但难道就不能用相互尊重的眼光看待互相吗？&lt;/p&gt;
+
+&lt;p&gt;他们是一群混蛋！&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>他们一夜酒肉留下满桌污秽不堪的垃圾，我们趴在地上去捡滚到桌下的龙虾壳；</summary>
         
       </entry>
     
