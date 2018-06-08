@@ -137,7 +137,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YellowDi</title>
   <subtitle>I make things that don’t suck.</subtitle>
-  <updated>2018-06-02T14:33:21+08:00</updated>
+  <updated>2018-06-08T15:24:05+08:00</updated>
   <id>https://yellowdi.github.io/</id>
   <generator uri="https://sparanoid.com/lab/amsf/" version="24.2.4">Almace Scaffolding</generator>
 
@@ -157,13 +157,13 @@
       
 
       <entry>
-        <title>Oops</title>
+        <title>前任</title>
         <id>https://yellowdi.github.io/articles/180527/</id>
         <link rel="alternate" type="text/html" href="https://yellowdi.github.io/articles/180527/" />
         <published>2018-05-27T00:00:00+08:00</published>
 
         
-          <updated>2018-05-28T09:28:54+08:00</updated>
+          <updated>2018-06-08T15:23:35+08:00</updated>
         
 
         <author>
@@ -174,7 +174,17 @@
 
         <content type="html" xml:base="https://yellowdi.github.io/">
           
-            
+            &lt;p&gt;她说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我的开心和你说你前女友没有关系，但是我对你在这个情况下，说我和你前女朋友的时候那个点我真的是，很无语，我不知道你自己有没有感觉，你自己最后也没有一点态度服软的样子，那我也不想僵持着，你可以继续这样子&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我在房间转来转去，写写删删说道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我反复数落不是假装放下是怕你多想，把你的疑惑归结于异地是一种懒惰的做法，我不该这样不把话说完，留着两个人沉默。前任，对于我来讲从来就不是择偶标准，这世界车水马龙，千家朦胧，每个人都是独一无二的，每个人都会有着独特的好，千金不换。其实那些日子挺好，付出了努力了，只是各自想走的路渐渐不是同一条，所以最后决定相忘于江湖。就好像一堂课，考试结果不尽如人意，也并不会多可怕，毕竟知道了自己的不足与可爱。但过去之所以被称之为过去，就是因为它没有任何假设及更改的可能。她祝我找到一个可以陪伴一生的人，现在我找到了！&lt;/p&gt;
+&lt;/blockquote&gt;
 
           
           
@@ -183,7 +193,7 @@
         </content>
 
         
-          <summary></summary>
+          <summary>她说：</summary>
         
       </entry>
     
